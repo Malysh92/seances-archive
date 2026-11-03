@@ -27,19 +27,17 @@
   .mono { font-variant-numeric: tabular-nums; font-family: ui-monospace, monospace; }
   .nowrap { white-space: nowrap; }
   tr[hidden] { display: none; }
-  tr.group { cursor: pointer; font-weight: 500; background: rgba(127,127,127,0.07); }
-  tr.group:hover { background: rgba(127,127,127,0.14); }
+  tr.group { cursor: pointer; }
   tr.group .arrow { display: inline-block; width: 1em; color: #777; }
   tr.group.open .arrow { transform: rotate(90deg); }
   tr.member td:nth-child(3) { padding-left: 28px; }
-  .badge.cnt { background: rgba(127,127,127,0.25); color: inherit; }
-  .badge.fresh { background: #34c759; color: #fff; }
+  .cnt { color: #777; }
   a { color: #1B65F5; }
 </style>
 </head>
 <body>
   <h1>intickets-watcher — архив найденных сеансов</h1>
-  <div class="sub">Обновлено: 2026-11-03T15:43:44.007Z · всего в архиве: 4724 · из них отслеживаемых: 40 · архив хранится 7 дн. (кроме отслеживаемых — храним всегда)</div>
+  <div class="sub">Обновлено: 2026-11-03T15:48:26.742Z · всего в архиве: 4717 · из них отслеживаемых: 40 · архив хранится 7 дн. (кроме отслеживаемых — храним всегда)</div>
   <div class="warn">⚠ Ссылки отслеживаемых (★) организаторов ведут на их настоящий домен продаж — там реально видны места и цена. Ссылки остальных организаторов ведут через общий служебный домен: он показывает базовые данные корректно, но может ошибочно писать «билетов нет», даже если места по факту есть — для точной информации ищите мероприятие на официальном сайте организатора.</div>
   <div class="controls">
     <input type="search" id="search" placeholder="Поиск по названию, организатору, ID...">
@@ -62,7 +60,7 @@
 <tr class="group" data-gid="g1" data-search="входной билет с комплиментом 14737532 12689">
         <td class="nowrap">03-11-2026 18:21:29</td>
         <td class="nowrap">07.11 – 06.12</td>
-        <td><span class="arrow">▸</span> Входной билет с комплиментом <span class="badge cnt">× 246</span> <span class="badge fresh">+237 за час</span></td>
+        <td><span class="arrow">▸</span> Входной билет с комплиментом <span class="cnt">× 246</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12689</td>
         <td class="mono nowrap">14737532</td>
@@ -2312,7 +2310,7 @@
 <tr class="group" data-gid="g2" data-search="осень с арт-платформой «куб» 76407584 12689">
         <td class="nowrap">03-11-2026 18:20:46</td>
         <td class="nowrap">07.11 – 06.12</td>
-        <td><span class="arrow">▸</span> Осень с арт-платформой «КУБ» <span class="badge cnt">× 235</span> <span class="badge fresh">+235 за час</span></td>
+        <td><span class="arrow">▸</span> Осень с арт-платформой «КУБ» <span class="cnt">× 235</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12689</td>
         <td class="mono nowrap">76407584</td>
@@ -4481,7 +4479,7 @@
 <tr class="group" data-gid="g3" data-search="разовое занятие в группе. индивидуальное занятие по русскому языку. 67232734 12280">
         <td class="nowrap">03-11-2026 18:18:59</td>
         <td class="nowrap">29.10 – 03.11</td>
-        <td><span class="arrow">▸</span> Разовое занятие в группе. Индивидуальное занятие по русскому языку. <span class="badge cnt">× 3</span> <span class="badge fresh">+1 за час</span></td>
+        <td><span class="arrow">▸</span> Разовое занятие в группе. Индивидуальное занятие по русскому языку. <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12280</td>
         <td class="mono nowrap">67232734</td>
@@ -4544,7 +4542,7 @@
 <tr class="group" data-gid="g4" data-search="входной билет в арт-пространство «куб» 12889534 12689">
         <td class="nowrap">03-11-2026 17:47:38</td>
         <td class="nowrap">07.11 – 06.12</td>
-        <td><span class="arrow">▸</span> Входной билет в арт-пространство «КУБ» <span class="badge cnt">× 247</span> <span class="badge fresh">+8 за час</span></td>
+        <td><span class="arrow">▸</span> Входной билет в арт-пространство «КУБ» <span class="cnt">× 247</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12689</td>
         <td class="mono nowrap">12889534</td>
@@ -6785,7 +6783,7 @@
 <tr class="group" data-gid="g5" data-search="мастер-класс по вокалу (ленинский пр., 135, к.2) 75960208 18623">
         <td class="nowrap">03-11-2026 17:47:29</td>
         <td class="nowrap">05.11 – 10.11</td>
-        <td><span class="arrow">▸</span> Мастер-класс по вокалу (Ленинский пр., 135, к.2) <span class="badge cnt">× 3</span> <span class="badge fresh">+3 за час</span></td>
+        <td><span class="arrow">▸</span> Мастер-класс по вокалу (Ленинский пр., 135, к.2) <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">18623</td>
         <td class="mono nowrap">75960208</td>
@@ -6839,7 +6837,7 @@
 <tr class="group" data-gid="g6" data-search="неёлка в министерстве магии 12782553 11343">
         <td class="nowrap">03-11-2026 17:45:35</td>
         <td class="nowrap">19.12 – 10.01</td>
-        <td><span class="arrow">▸</span> НеЁлка в Министерстве Магии <span class="badge cnt">× 3</span> <span class="badge fresh">+1 за час</span></td>
+        <td><span class="arrow">▸</span> НеЁлка в Министерстве Магии <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">11343</td>
         <td class="mono nowrap">12782553</td>
@@ -6983,7 +6981,7 @@
 <tr class="group" data-gid="g7" data-search="обзорная экскурсия по арт-пространству «куб» 12926195 12689">
         <td class="nowrap">03-11-2026 16:53:20</td>
         <td class="nowrap">07.11 – 06.12</td>
-        <td><span class="arrow">▸</span> Обзорная экскурсия по арт-пространству «КУБ» <span class="badge cnt">× 10</span></td>
+        <td><span class="arrow">▸</span> Обзорная экскурсия по арт-пространству «КУБ» <span class="cnt">× 10</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12689</td>
         <td class="mono nowrap">12926195</td>
@@ -7082,7 +7080,7 @@
 <tr class="group" data-gid="g8" data-search="пригласительный для the carlton, moscow 57835532 12689">
         <td class="nowrap">03-11-2026 16:53:14</td>
         <td class="nowrap">07.11 – 06.12</td>
-        <td><span class="arrow">▸</span> Пригласительный для The Carlton, Moscow <span class="badge cnt">× 27</span></td>
+        <td><span class="arrow">▸</span> Пригласительный для The Carlton, Moscow <span class="cnt">× 27</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12689</td>
         <td class="mono nowrap">57835532</td>
@@ -7388,7 +7386,7 @@
 <tr class="group" data-gid="g9" data-search="идеальный муж 11666232 5280">
         <td class="nowrap">03-11-2026 16:21:08</td>
         <td class="nowrap">30.10 – 22.11</td>
-        <td><span class="arrow">▸</span> Идеальный муж <span class="badge cnt">× 8</span></td>
+        <td><span class="arrow">▸</span> Идеальный муж <span class="cnt">× 8</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">5280</td>
         <td class="mono nowrap">11666232</td>
@@ -7496,7 +7494,7 @@
 <tr class="group" data-gid="g10" data-search="экскурсия с мастер-классом по резьбе по дереву 70964687 11108">
         <td class="nowrap">03-11-2026 16:20:52</td>
         <td class="nowrap">11.11 – 25.11</td>
-        <td><span class="arrow">▸</span> Экскурсия с мастер-классом по резьбе по дереву <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Экскурсия с мастер-классом по резьбе по дереву <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все pause</td>
         <td class="mono nowrap">11108</td>
         <td class="mono nowrap">70964687</td>
@@ -7721,7 +7719,7 @@
 <tr class="group" data-gid="g11" data-search="осмотр экспозиции музея 11712609 9077">
         <td class="nowrap">03-11-2026 15:09:12</td>
         <td class="nowrap">10.11 – 13.11</td>
-        <td><span class="arrow">▸</span> Осмотр экспозиции Музея <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Осмотр экспозиции Музея <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9077</td>
         <td class="mono nowrap">11712609</td>
@@ -7766,7 +7764,7 @@
 <tr class="group" data-gid="g12" data-search="проведение занятий в кружках: разовое (клубное объединение &quot;музыка нас связала&quot;) 52193284 15402">
         <td class="nowrap">03-11-2026 15:09:08</td>
         <td class="nowrap">29.10 – 03.11</td>
-        <td><span class="arrow">▸</span> Проведение занятий в кружках: разовое (Клубное объединение &quot;Музыка нас связала&quot;) <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Проведение занятий в кружках: разовое (Клубное объединение &quot;Музыка нас связала&quot;) <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">15402</td>
         <td class="mono nowrap">52193284</td>
@@ -7838,7 +7836,7 @@
 <tr class="group" data-gid="g13" data-search="балет &quot;щелкунчик&quot; 11886323 9992">
         <td class="nowrap">03-11-2026 15:09:04</td>
         <td class="nowrap">01.01 – 27.01</td>
-        <td><span class="arrow">▸</span> Балет &quot;Щелкунчик&quot; <span class="badge cnt">× 6</span></td>
+        <td><span class="arrow">▸</span> Балет &quot;Щелкунчик&quot; <span class="cnt">× 6</span></td>
         <td class="nowrap mono">open 5 / close 1</td>
         <td class="mono nowrap">9992</td>
         <td class="mono nowrap">11886323</td>
@@ -7937,7 +7935,7 @@
 <tr class="group" data-gid="g14" data-search="экскурсии для групп (от 20 до 50 человек) 24901524 14097">
         <td class="nowrap">03-11-2026 14:37:18</td>
         <td class="nowrap">16.11 – 29.12</td>
-        <td><span class="arrow">▸</span> Экскурсии для групп (от 20 до 50 человек) <span class="badge cnt">× 12</span></td>
+        <td><span class="arrow">▸</span> Экскурсии для групп (от 20 до 50 человек) <span class="cnt">× 12</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">14097</td>
         <td class="mono nowrap">24901524</td>
@@ -8108,7 +8106,7 @@
 <tr class="group" data-gid="g15" data-search="олег газманов 77216120 19734">
         <td class="nowrap">03-11-2026 14:36:57</td>
         <td class="nowrap">15.03 – 19.12</td>
-        <td><span class="arrow">▸</span> Олег Газманов <span class="badge cnt">× 33</span></td>
+        <td><span class="arrow">▸</span> Олег Газманов <span class="cnt">× 33</span></td>
         <td class="nowrap mono">open 32 / close 1</td>
         <td class="mono nowrap">19734</td>
         <td class="mono nowrap">77216120</td>
@@ -8459,7 +8457,7 @@
 <tr class="group" data-gid="g16" data-search="новогодний спектакль &quot;балаган&quot; 77583656 10511">
         <td class="nowrap">03-11-2026 14:04:47</td>
         <td class="nowrap">26.12 – 27.12</td>
-        <td><span class="arrow">▸</span> Новогодний спектакль &quot;БАЛАГАН&quot; <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Новогодний спектакль &quot;БАЛАГАН&quot; <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">10511</td>
         <td class="mono nowrap">77583656</td>
@@ -8513,7 +8511,7 @@
 <tr class="group" data-gid="g17" data-search="«мюзикл &quot;карнавальная ночь&quot; егора дружинина» 74156929 11348">
         <td class="nowrap">03-11-2026 14:04:45</td>
         <td class="nowrap">21.12 – 27.12</td>
-        <td><span class="arrow">▸</span> «Мюзикл &quot;Карнавальная ночь&quot; Егора Дружинина» <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> «Мюзикл &quot;Карнавальная ночь&quot; Егора Дружинина» <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">11348</td>
         <td class="mono nowrap">74156929</td>
@@ -8567,7 +8565,7 @@
 <tr class="group" data-gid="g18" data-search="«алиса: время чудес» театрально-цирковое шоу с классической музыкой 74818175 8666">
         <td class="nowrap">03-11-2026 14:04:34</td>
         <td class="nowrap">26.12 – 27.12</td>
-        <td><span class="arrow">▸</span> «АЛИСА: ВРЕМЯ ЧУДЕС» Театрально-цирковое шоу с классической музыкой <span class="badge cnt">× 5</span></td>
+        <td><span class="arrow">▸</span> «АЛИСА: ВРЕМЯ ЧУДЕС» Театрально-цирковое шоу с классической музыкой <span class="cnt">× 5</span></td>
         <td class="nowrap mono">open 4 / close 1</td>
         <td class="mono nowrap">8666</td>
         <td class="mono nowrap">74818175</td>
@@ -8711,7 +8709,7 @@
 <tr class="group" data-gid="g19" data-search="приключения в новогоднем лесу 77402068 9027">
         <td class="nowrap">03-11-2026 13:32:20</td>
         <td class="nowrap">02.11 – 10.01</td>
-        <td><span class="arrow">▸</span> Приключения в новогоднем лесу <span class="badge cnt">× 17</span></td>
+        <td><span class="arrow">▸</span> Приключения в новогоднем лесу <span class="cnt">× 17</span></td>
         <td class="nowrap mono">open 15 / close 2</td>
         <td class="mono nowrap">9027</td>
         <td class="mono nowrap">77402068</td>
@@ -8891,7 +8889,7 @@
 <tr class="group" data-gid="g20" data-search="щелкунчик 12830317 9027">
         <td class="nowrap">03-11-2026 13:32:03</td>
         <td class="nowrap">29.12 – 08.01</td>
-        <td><span class="arrow">▸</span> Щелкунчик <span class="badge cnt">× 8</span></td>
+        <td><span class="arrow">▸</span> Щелкунчик <span class="cnt">× 8</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9027</td>
         <td class="mono nowrap">12830317</td>
@@ -8999,7 +8997,7 @@
 <tr class="group" data-gid="g21" data-search="белоснежка и семь гномов 12724727 9027">
         <td class="nowrap">03-11-2026 13:29:58</td>
         <td class="nowrap">26.12 – 07.01</td>
-        <td><span class="arrow">▸</span> Белоснежка и семь гномов <span class="badge cnt">× 8</span></td>
+        <td><span class="arrow">▸</span> Белоснежка и семь гномов <span class="cnt">× 8</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9027</td>
         <td class="mono nowrap">12724727</td>
@@ -9080,7 +9078,7 @@
 <tr class="group" data-gid="g22" data-search="те самые стихочтения... 77574587 11002">
         <td class="nowrap">03-11-2026 13:01:03</td>
         <td class="nowrap">27.11 – 28.11</td>
-        <td><span class="arrow">▸</span> Те самые стихочтения... <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Те самые стихочтения... <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">11002</td>
         <td class="mono nowrap">77574587</td>
@@ -9152,7 +9150,7 @@
 <tr class="group" data-gid="g23" data-search="снежная королева 12830385 9027">
         <td class="nowrap">03-11-2026 13:00:48</td>
         <td class="nowrap">21.12 – 05.01</td>
-        <td><span class="arrow">▸</span> Снежная Королева <span class="badge cnt">× 16</span></td>
+        <td><span class="arrow">▸</span> Снежная Королева <span class="cnt">× 16</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9027</td>
         <td class="mono nowrap">12830385</td>
@@ -9332,7 +9330,7 @@
 <tr class="group" data-gid="g24" data-search="тематический вечер &quot;киновикторина&quot; 77581384 11445">
         <td class="nowrap">03-11-2026 12:58:20</td>
         <td class="nowrap">03.11 – 04.11</td>
-        <td><span class="arrow">▸</span> Тематический вечер &quot;Киновикторина&quot; <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Тематический вечер &quot;Киновикторина&quot; <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">11445</td>
         <td class="mono nowrap">77581384</td>
@@ -9386,7 +9384,7 @@
 <tr class="group" data-gid="g25" data-search="выставка бекетова м.п. &quot;следы цивилизации&quot; 77581315 12959">
         <td class="nowrap">03-11-2026 12:58:14</td>
         <td class="nowrap">08.11 – 13.12</td>
-        <td><span class="arrow">▸</span> Выставка Бекетова М.П. &quot;Следы цивилизации&quot; <span class="badge cnt">× 16</span></td>
+        <td><span class="arrow">▸</span> Выставка Бекетова М.П. &quot;Следы цивилизации&quot; <span class="cnt">× 16</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12959</td>
         <td class="mono nowrap">77581315</td>
@@ -9602,7 +9600,7 @@
 <tr class="group" data-gid="g26" data-search="выставка картин ярославского художественного училища 77580553 12959">
         <td class="nowrap">03-11-2026 12:29:08</td>
         <td class="nowrap">22.11 – 06.12</td>
-        <td><span class="arrow">▸</span> Выставка картин Ярославского художественного училища <span class="badge cnt">× 16</span></td>
+        <td><span class="arrow">▸</span> Выставка картин Ярославского художественного училища <span class="cnt">× 16</span></td>
         <td class="nowrap mono">open 15 / close 1</td>
         <td class="mono nowrap">12959</td>
         <td class="mono nowrap">77580553</td>
@@ -9791,7 +9789,7 @@
 <tr class="group" data-gid="g27" data-search="выставка картин рожкова о.г. &quot;цвет-это жизнь. жизнь-это цвет&quot; 77578957 12959">
         <td class="nowrap">03-11-2026 12:27:01</td>
         <td class="nowrap">15.11 – 13.12</td>
-        <td><span class="arrow">▸</span> Выставка картин Рожкова О.Г. &quot;Цвет-это жизнь. Жизнь-это цвет&quot; <span class="badge cnt">× 19</span></td>
+        <td><span class="arrow">▸</span> Выставка картин Рожкова О.Г. &quot;Цвет-это жизнь. Жизнь-это цвет&quot; <span class="cnt">× 19</span></td>
         <td class="nowrap mono">close 1 / open 18</td>
         <td class="mono nowrap">12959</td>
         <td class="mono nowrap">77578957</td>
@@ -10043,7 +10041,7 @@
 <tr class="group" data-gid="g28" data-search="«тепло ли тебе, девица?» волшебная новогодняя история по мотивам русской народной сказки «морозко» 77579156 14762">
         <td class="nowrap">03-11-2026 11:52:35</td>
         <td class="nowrap">23.12 – 29.12</td>
-        <td><span class="arrow">▸</span> «Тепло ли тебе, девица?» Волшебная новогодняя история по мотивам русской народной сказки «Морозко» <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> «Тепло ли тебе, девица?» Волшебная новогодняя история по мотивам русской народной сказки «Морозко» <span class="cnt">× 4</span></td>
         <td class="nowrap mono">close 1 / open 3</td>
         <td class="mono nowrap">14762</td>
         <td class="mono nowrap">77579156</td>
@@ -10097,7 +10095,7 @@
 <tr class="group" data-gid="g29" data-search="творческая встреча «загадки кукольного хоровода» 71566902 12255">
         <td class="nowrap">03-11-2026 11:52:32</td>
         <td class="nowrap">08.11 – 26.12</td>
-        <td><span class="arrow">▸</span> Творческая встреча «Загадки кукольного хоровода» <span class="badge cnt">× 7</span></td>
+        <td><span class="arrow">▸</span> Творческая встреча «Загадки кукольного хоровода» <span class="cnt">× 7</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12255</td>
         <td class="mono nowrap">71566902</td>
@@ -10178,7 +10176,7 @@
 <tr class="group" data-gid="g30" data-search="mr. credo и его золотые хиты ростов-на-дону 75789244 11348">
         <td class="nowrap">03-11-2026 11:52:25</td>
         <td class="nowrap">06.01 – 20.03</td>
-        <td><span class="arrow">▸</span> MR. CREDO и его ЗОЛОТЫЕ ХИТЫ Ростов-на-Дону <span class="badge cnt">× 6</span></td>
+        <td><span class="arrow">▸</span> MR. CREDO и его ЗОЛОТЫЕ ХИТЫ Ростов-на-Дону <span class="cnt">× 6</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">11348</td>
         <td class="mono nowrap">75789244</td>
@@ -10259,7 +10257,7 @@
 <tr class="group" data-gid="g31" data-search="неделя моды в адлере 77559581 13497">
         <td class="nowrap">03-11-2026 11:25:09</td>
         <td class="nowrap">15.01 – 17.01</td>
-        <td><span class="arrow">▸</span> Неделя моды в Адлере <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Неделя моды в Адлере <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">13497</td>
         <td class="mono nowrap">77559581</td>
@@ -10466,7 +10464,7 @@
 <tr class="group" data-gid="g32" data-search="обед с колобком 67415840 20135">
         <td class="nowrap">03-11-2026 11:20:37</td>
         <td class="nowrap">04.11 – 31.01</td>
-        <td><span class="arrow">▸</span> Обед с Колобком <span class="badge cnt">× 16</span></td>
+        <td><span class="arrow">▸</span> Обед с Колобком <span class="cnt">× 16</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">20135</td>
         <td class="mono nowrap">67415840</td>
@@ -10673,7 +10671,7 @@
 <tr class="group" data-gid="g33" data-search="шоу экспериментов 12829699 9502">
         <td class="nowrap">03-11-2026 10:48:06</td>
         <td class="nowrap">31.10 – 04.11</td>
-        <td><span class="arrow">▸</span> Шоу экспериментов <span class="badge cnt">× 12</span></td>
+        <td><span class="arrow">▸</span> Шоу экспериментов <span class="cnt">× 12</span></td>
         <td class="nowrap mono">close 4 / open 8</td>
         <td class="mono nowrap">9502</td>
         <td class="mono nowrap">12829699</td>
@@ -10799,7 +10797,7 @@
 <tr class="group" data-gid="g34" data-search="папа 74309660 21989">
         <td class="nowrap">03-11-2026 10:48:00</td>
         <td class="nowrap">02.12 – 04.01</td>
-        <td><span class="arrow">▸</span> Папа <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Папа <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">21989</td>
         <td class="mono nowrap">74309660</td>
@@ -10988,7 +10986,7 @@
 <tr class="group" data-gid="g35" data-search="информационно-просветительская программа &quot;россия:история,культура,победы&quot; 77153790 9866">
         <td class="nowrap">03-11-2026 10:45:24</td>
         <td class="nowrap">16.11 – 26.11</td>
-        <td><span class="arrow">▸</span> Информационно-просветительская программа &quot;Россия:история,культура,победы&quot; <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Информационно-просветительская программа &quot;Россия:история,культура,победы&quot; <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9866</td>
         <td class="mono nowrap">77153790</td>
@@ -11078,7 +11076,7 @@
 <tr class="group" data-gid="g36" data-search="akmal&#39; 66390511 19734">
         <td class="nowrap">03-11-2026 10:15:54</td>
         <td class="nowrap">16.12 – 04.10</td>
-        <td><span class="arrow">▸</span> Akmal&#39; <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Akmal&#39; <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">19734</td>
         <td class="mono nowrap">66390511</td>
@@ -11249,7 +11247,7 @@
 <tr class="group" data-gid="g37" data-search="экскурсия &quot;россия златогривая&quot; в рабочую конюшню 64831785 17105">
         <td class="nowrap">03-11-2026 10:13:47</td>
         <td class="nowrap">15.11 – 29.11</td>
-        <td><span class="arrow">▸</span> Экскурсия &quot;Россия Златогривая&quot; в рабочую конюшню <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Экскурсия &quot;Россия Златогривая&quot; в рабочую конюшню <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">17105</td>
         <td class="mono nowrap">64831785</td>
@@ -11294,7 +11292,7 @@
 <tr class="group" data-gid="g38" data-search="самостоятельная обзорная экскурсия в демонстрационную конюшню 39227777 17105">
         <td class="nowrap">03-11-2026 10:13:45</td>
         <td class="nowrap">04.11 – 29.11</td>
-        <td><span class="arrow">▸</span> Самостоятельная обзорная экскурсия в Демонстрационную конюшню <span class="badge cnt">× 36</span></td>
+        <td><span class="arrow">▸</span> Самостоятельная обзорная экскурсия в Демонстрационную конюшню <span class="cnt">× 36</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">17105</td>
         <td class="mono nowrap">39227777</td>
@@ -11654,7 +11652,7 @@
 <tr class="group" data-gid="g39" data-search="«живее, чем код. айдар 2.0» 75152124 10136">
         <td class="nowrap">03-11-2026 09:44:21</td>
         <td class="nowrap">12.11 – 17.11</td>
-        <td><span class="arrow">▸</span> «Живее, чем код. Айдар 2.0» <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> «Живее, чем код. Айдар 2.0» <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">10136</td>
         <td class="mono nowrap">75152124</td>
@@ -11807,7 +11805,7 @@
 <tr class="group" data-gid="g40" data-search="мьюзикл &quot;трубадур и его друзья&quot; 77575253 11022">
         <td class="nowrap">03-11-2026 08:40:57</td>
         <td class="nowrap">01.12 – 03.12</td>
-        <td><span class="arrow">▸</span> Мьюзикл &quot;Трубадур и его друзья&quot; <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Мьюзикл &quot;Трубадур и его друзья&quot; <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">11022</td>
         <td class="mono nowrap">77575253</td>
@@ -11969,7 +11967,7 @@
 <tr class="group" data-gid="g41" data-search="мастер–класс «мир татарского фольклора» 77179537 10420">
         <td class="nowrap">03-11-2026 08:36:33</td>
         <td class="nowrap">07.11 – 26.12</td>
-        <td><span class="arrow">▸</span> Мастер–класс «Мир татарского фольклора» <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Мастер–класс «Мир татарского фольклора» <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">10420</td>
         <td class="mono nowrap">77179537</td>
@@ -12059,7 +12057,7 @@
 <tr class="group" data-gid="g42" data-search="мастер-класс «звонкие ложки» 77179564 10420">
         <td class="nowrap">03-11-2026 08:06:12</td>
         <td class="nowrap">08.11 – 01.12</td>
-        <td><span class="arrow">▸</span> Мастер-класс «Звонкие ложки» <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Мастер-класс «Звонкие ложки» <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">10420</td>
         <td class="mono nowrap">77179564</td>
@@ -12212,7 +12210,7 @@
 <tr class="group" data-gid="g43" data-search="сказ о том, как зима появилась 67932823 9276">
         <td class="nowrap">03-11-2026 07:10:16</td>
         <td class="nowrap">10.12 – 16.12</td>
-        <td><span class="arrow">▸</span> Сказ о том, как Зима появилась <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Сказ о том, как Зима появилась <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9276</td>
         <td class="mono nowrap">67932823</td>
@@ -12266,7 +12264,7 @@
 <tr class="group" data-gid="g44" data-search="двенадцать месяцев 12040070 9027">
         <td class="nowrap">03-11-2026 07:06:33</td>
         <td class="nowrap">25.12 – 28.12</td>
-        <td><span class="arrow">▸</span> Двенадцать месяцев <span class="badge cnt">× 5</span></td>
+        <td><span class="arrow">▸</span> Двенадцать месяцев <span class="cnt">× 5</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9027</td>
         <td class="mono nowrap">12040070</td>
@@ -12482,7 +12480,7 @@
 <tr class="group" data-gid="g45" data-search="ледяное сердце 12079686 9027">
         <td class="nowrap">03-11-2026 04:59:48</td>
         <td class="nowrap">23.12</td>
-        <td><span class="arrow">▸</span> Ледяное сердце <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Ледяное сердце <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9027</td>
         <td class="mono nowrap">12079686</td>
@@ -12536,7 +12534,7 @@
 <tr class="group" data-gid="g46" data-search="выставка кабинета п.а. ойунского 70146728 16006">
         <td class="nowrap">03-11-2026 04:57:24</td>
         <td class="nowrap">09.11 – 18.12</td>
-        <td><span class="arrow">▸</span> Выставка кабинета П.А. Ойунского <span class="badge cnt">× 29</span></td>
+        <td><span class="arrow">▸</span> Выставка кабинета П.А. Ойунского <span class="cnt">× 29</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">16006</td>
         <td class="mono nowrap">70146728</td>
@@ -12815,7 +12813,7 @@
 <tr class="group" data-gid="g47" data-search="служебный вход 74381433 22016">
         <td class="nowrap">03-11-2026 04:16:00</td>
         <td class="nowrap">28.10 – 03.11</td>
-        <td><span class="arrow">▸</span> Служебный вход <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Служебный вход <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">22016</td>
         <td class="mono nowrap">74381433</td>
@@ -12851,7 +12849,7 @@
 <tr class="group" data-gid="g48" data-search="прогулка на бимм 73957887 20818">
         <td class="nowrap">03-11-2026 03:31:55</td>
         <td class="nowrap">08.11 – 29.11</td>
-        <td><span class="arrow">▸</span> Прогулка на БИММ <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Прогулка на БИММ <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">20818</td>
         <td class="mono nowrap">73957887</td>
@@ -12905,7 +12903,7 @@
 <tr class="group" data-gid="g49" data-search="экскурсии в океанариуме 70051074 20818">
         <td class="nowrap">03-11-2026 02:03:16</td>
         <td class="nowrap">25.11 – 01.12</td>
-        <td><span class="arrow">▸</span> Экскурсии в Океанариуме <span class="badge cnt">× 6</span></td>
+        <td><span class="arrow">▸</span> Экскурсии в Океанариуме <span class="cnt">× 6</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">20818</td>
         <td class="mono nowrap">70051074</td>
@@ -12968,7 +12966,7 @@
 <tr class="group" data-gid="g50" data-search="растём в океанариуме 70007372 20818">
         <td class="nowrap">03-11-2026 02:03:16</td>
         <td class="nowrap">25.11 – 01.12</td>
-        <td><span class="arrow">▸</span> Растём в Океанариуме <span class="badge cnt">× 6</span></td>
+        <td><span class="arrow">▸</span> Растём в Океанариуме <span class="cnt">× 6</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">20818</td>
         <td class="mono nowrap">70007372</td>
@@ -13031,7 +13029,7 @@
 <tr class="group" data-gid="g51" data-search="мероприятия океанариума 70004009 20818">
         <td class="nowrap">03-11-2026 02:03:14</td>
         <td class="nowrap">25.11 – 01.12</td>
-        <td><span class="arrow">▸</span> Мероприятия Океанариума <span class="badge cnt">× 6</span></td>
+        <td><span class="arrow">▸</span> Мероприятия Океанариума <span class="cnt">× 6</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">20818</td>
         <td class="mono nowrap">70004009</td>
@@ -13094,7 +13092,7 @@
 <tr class="group" data-gid="g52" data-search="мастер-классы океанариума 70051254 20818">
         <td class="nowrap">03-11-2026 02:03:14</td>
         <td class="nowrap">25.11 – 01.12</td>
-        <td><span class="arrow">▸</span> Мастер-классы Океанариума <span class="badge cnt">× 6</span></td>
+        <td><span class="arrow">▸</span> Мастер-классы Океанариума <span class="cnt">× 6</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">20818</td>
         <td class="mono nowrap">70051254</td>
@@ -13157,7 +13155,7 @@
 <tr class="group" data-gid="g53" data-search="льготные мероприятия океанариума 70006075 20818">
         <td class="nowrap">03-11-2026 02:03:14</td>
         <td class="nowrap">25.11 – 01.12</td>
-        <td><span class="arrow">▸</span> Льготные мероприятия Океанариума <span class="badge cnt">× 6</span></td>
+        <td><span class="arrow">▸</span> Льготные мероприятия Океанариума <span class="cnt">× 6</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">20818</td>
         <td class="mono nowrap">70006075</td>
@@ -13220,7 +13218,7 @@
 <tr class="group" data-gid="g54" data-search="океанариум 69958716 20818">
         <td class="nowrap">03-11-2026 01:22:50</td>
         <td class="nowrap">25.11 – 01.12</td>
-        <td><span class="arrow">▸</span> Океанариум <span class="badge cnt">× 6</span></td>
+        <td><span class="arrow">▸</span> Океанариум <span class="cnt">× 6</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">20818</td>
         <td class="mono nowrap">69958716</td>
@@ -13310,7 +13308,7 @@
 <tr class="group" data-gid="g55" data-search="завтрак из печи 67430147 20135">
         <td class="nowrap">02-11-2026 23:10:33</td>
         <td class="nowrap">02.01 – 31.01</td>
-        <td><span class="arrow">▸</span> Завтрак из печи <span class="badge cnt">× 23</span></td>
+        <td><span class="arrow">▸</span> Завтрак из печи <span class="cnt">× 23</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">20135</td>
         <td class="mono nowrap">67430147</td>
@@ -13535,7 +13533,7 @@
 <tr class="group" data-gid="g56" data-search="завтрак в музее 72045017 20135">
         <td class="nowrap">02-11-2026 22:40:46</td>
         <td class="nowrap">03.11 – 08.11</td>
-        <td><span class="arrow">▸</span> Завтрак в музее <span class="badge cnt">× 12</span></td>
+        <td><span class="arrow">▸</span> Завтрак в музее <span class="cnt">× 12</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">20135</td>
         <td class="mono nowrap">72045017</td>
@@ -13652,7 +13650,7 @@
 <tr class="group" data-gid="g57" data-search="балет &quot;лебединое озеро&quot; 11902306 9992">
         <td class="nowrap">02-11-2026 22:35:37</td>
         <td class="nowrap">10.01 – 24.01</td>
-        <td><span class="arrow">▸</span> Балет &quot;Лебединое озеро&quot; <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Балет &quot;Лебединое озеро&quot; <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9992</td>
         <td class="mono nowrap">11902306</td>
@@ -13733,7 +13731,7 @@
 <tr class="group" data-gid="g58" data-search="вечера органной музыки 77561911 14117">
         <td class="nowrap">02-11-2026 21:32:11</td>
         <td class="nowrap">20.11 – 22.11</td>
-        <td><span class="arrow">▸</span> Вечера органной музыки <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Вечера органной музыки <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">14117</td>
         <td class="mono nowrap">77561911</td>
@@ -13769,7 +13767,7 @@
 <tr class="group" data-gid="g59" data-search="диско 80-90х 63322356 2986">
         <td class="nowrap">02-11-2026 21:32:09</td>
         <td class="nowrap">16.04 – 14.08</td>
-        <td><span class="arrow">▸</span> Диско 80-90х <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Диско 80-90х <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">2986</td>
         <td class="mono nowrap">63322356</td>
@@ -13814,7 +13812,7 @@
 <tr class="group" data-gid="g60" data-search="женский stand up 54728757 14604">
         <td class="nowrap">02-11-2026 21:00:11</td>
         <td class="nowrap">17.04 – 21.11</td>
-        <td><span class="arrow">▸</span> Женский Stand Up <span class="badge cnt">× 5</span></td>
+        <td><span class="arrow">▸</span> Женский Stand Up <span class="cnt">× 5</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">14604</td>
         <td class="mono nowrap">54728757</td>
@@ -13877,7 +13875,7 @@
 <tr class="group" data-gid="g61" data-search="цирк &quot;премьер&quot;, г. великий новгород 77561122 6512">
         <td class="nowrap">02-11-2026 20:27:07</td>
         <td class="nowrap">21.11 – 06.12</td>
-        <td><span class="arrow">▸</span> Цирк &quot;Премьер&quot;, г. Великий Новгород <span class="badge cnt">× 6</span></td>
+        <td><span class="arrow">▸</span> Цирк &quot;Премьер&quot;, г. Великий Новгород <span class="cnt">× 6</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">6512</td>
         <td class="mono nowrap">77561122</td>
@@ -13940,7 +13938,7 @@
 <tr class="group" data-gid="g62" data-search="теща с сюрпризом! 11472988 5280">
         <td class="nowrap">02-11-2026 20:27:03</td>
         <td class="nowrap">01.11 – 28.11</td>
-        <td><span class="arrow">▸</span> Теща с сюрпризом! <span class="badge cnt">× 5</span></td>
+        <td><span class="arrow">▸</span> Теща с сюрпризом! <span class="cnt">× 5</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">5280</td>
         <td class="mono nowrap">11472988</td>
@@ -14012,7 +14010,7 @@
 <tr class="group" data-gid="g63" data-search="классный новый год. путешествие к деду морозу: царство 4-х стихий 75799139 4559">
         <td class="nowrap">02-11-2026 20:26:58</td>
         <td class="nowrap">25.12 – 28.12</td>
-        <td><span class="arrow">▸</span> Классный Новый год. Путешествие к Деду Морозу: царство 4-х стихий <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Классный Новый год. Путешествие к Деду Морозу: царство 4-х стихий <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">4559</td>
         <td class="mono nowrap">75799139</td>
@@ -14057,7 +14055,7 @@
 <tr class="group" data-gid="g64" data-search="наташа королёва 68907042 2986">
         <td class="nowrap">02-11-2026 19:49:58</td>
         <td class="nowrap">17.04 – 27.06</td>
-        <td><span class="arrow">▸</span> Наташа Королёва <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Наташа Королёва <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">2986</td>
         <td class="mono nowrap">68907042</td>
@@ -14237,7 +14235,7 @@
 <tr class="group" data-gid="g65" data-search="собачье сердце 69062552 5280">
         <td class="nowrap">02-11-2026 18:46:50</td>
         <td class="nowrap">05.11 – 14.11</td>
-        <td><span class="arrow">▸</span> Собачье сердце <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Собачье сердце <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">5280</td>
         <td class="mono nowrap">69062552</td>
@@ -14588,7 +14586,7 @@
 <tr class="group" data-gid="g66" data-search="мюзикл &quot;часовщик. история хранителя времени&quot; 38854436 14667">
         <td class="nowrap">02-11-2026 17:14:41</td>
         <td class="nowrap">04.01 – 05.01</td>
-        <td><span class="arrow">▸</span> Мюзикл &quot;ЧАСОВЩИК. История Хранителя Времени&quot; <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Мюзикл &quot;ЧАСОВЩИК. История Хранителя Времени&quot; <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">14667</td>
         <td class="mono nowrap">38854436</td>
@@ -14705,7 +14703,7 @@
 <tr class="group" data-gid="g67" data-search="мастер-класс «живопись акриловыми красками на холсте» 77557744 10414">
         <td class="nowrap">02-11-2026 16:45:16</td>
         <td class="nowrap">07.11 – 19.12</td>
-        <td><span class="arrow">▸</span> Мастер-класс «Живопись акриловыми красками на холсте» <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Мастер-класс «Живопись акриловыми красками на холсте» <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">10414</td>
         <td class="mono nowrap">77557744</td>
@@ -15083,7 +15081,7 @@
 <tr class="group" data-gid="g68" data-search="катания на коньках 2026 69390522 7864">
         <td class="nowrap">02-11-2026 15:27:55</td>
         <td class="nowrap">01.11 – 04.11</td>
-        <td><span class="arrow">▸</span> Катания на коньках 2026 <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Катания на коньках 2026 <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">7864</td>
         <td class="mono nowrap">69390522</td>
@@ -15218,7 +15216,7 @@
 <tr class="group" data-gid="g69" data-search="новогоднее представление &quot;волшебные кольца&quot; 12107184 4571">
         <td class="nowrap">02-11-2026 15:23:54</td>
         <td class="nowrap">19.12 – 26.12</td>
-        <td><span class="arrow">▸</span> Новогоднее представление &quot;Волшебные кольца&quot; <span class="badge cnt">× 6</span></td>
+        <td><span class="arrow">▸</span> Новогоднее представление &quot;Волшебные кольца&quot; <span class="cnt">× 6</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">4571</td>
         <td class="mono nowrap">12107184</td>
@@ -15749,7 +15747,7 @@
 <tr class="group" data-gid="g70" data-search="северные чудеса 77000184 19804">
         <td class="nowrap">02-11-2026 12:46:45</td>
         <td class="nowrap">14.11 – 19.12</td>
-        <td><span class="arrow">▸</span> Северные чудеса <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Северные чудеса <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">19804</td>
         <td class="mono nowrap">77000184</td>
@@ -15911,7 +15909,7 @@
 <tr class="group" data-gid="g71" data-search="интеллектуальная программа «золотой век русской литературы» 76896492 13486">
         <td class="nowrap">02-11-2026 12:43:22</td>
         <td class="nowrap">14.11 – 21.11</td>
-        <td><span class="arrow">▸</span> Интеллектуальная программа «Золотой век русской литературы» <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Интеллектуальная программа «Золотой век русской литературы» <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">13486</td>
         <td class="mono nowrap">76896492</td>
@@ -15965,7 +15963,7 @@
 <tr class="group" data-gid="g72" data-search="bigloveshow 38202484 16454">
         <td class="nowrap">02-11-2026 12:43:18</td>
         <td class="nowrap">10.11 – 15.11</td>
-        <td><span class="arrow">▸</span> BigLoveShow <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> BigLoveShow <span class="cnt">× 3</span></td>
         <td class="nowrap mono">close 2 / open 1</td>
         <td class="mono nowrap">16454</td>
         <td class="mono nowrap">38202484</td>
@@ -16055,7 +16053,7 @@
 <tr class="group" data-gid="g73" data-search="«новогодние снежинки» 77549910 12748">
         <td class="nowrap">02-11-2026 12:12:15</td>
         <td class="nowrap">23.12 – 25.12</td>
-        <td><span class="arrow">▸</span> «Новогодние снежинки» <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> «Новогодние снежинки» <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12748</td>
         <td class="mono nowrap">77549910</td>
@@ -16091,7 +16089,7 @@
 <tr class="group" data-gid="g74" data-search="фольклорная программа «молодёжные вечёрки». 73096400 21669">
         <td class="nowrap">02-11-2026 12:12:15</td>
         <td class="nowrap">10.11 – 28.11</td>
-        <td><span class="arrow">▸</span> Фольклорная программа «Молодёжные вечёрки». <span class="badge cnt">× 10</span></td>
+        <td><span class="arrow">▸</span> Фольклорная программа «Молодёжные вечёрки». <span class="cnt">× 10</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">21669</td>
         <td class="mono nowrap">73096400</td>
@@ -16199,7 +16197,7 @@
 <tr class="group" data-gid="g75" data-search="выпечка и роспись пряников, и экскурсия в музее 67448778 20181">
         <td class="nowrap">02-11-2026 12:12:13</td>
         <td class="nowrap">02.11 – 29.11</td>
-        <td><span class="arrow">▸</span> ВЫПЕЧКА И РОСПИСЬ ПРЯНИКОВ, и экскурсия в Музее <span class="badge cnt">× 6</span></td>
+        <td><span class="arrow">▸</span> ВЫПЕЧКА И РОСПИСЬ ПРЯНИКОВ, и экскурсия в Музее <span class="cnt">× 6</span></td>
         <td class="nowrap mono">open 1 / close 5</td>
         <td class="mono nowrap">20181</td>
         <td class="mono nowrap">67448778</td>
@@ -16262,7 +16260,7 @@
 <tr class="group" data-gid="g76" data-search="образовательно-творческий час «наследие в руках: мир ремесел» 72275268 11689">
         <td class="nowrap">02-11-2026 12:12:11</td>
         <td class="nowrap">05.11 – 06.11</td>
-        <td><span class="arrow">▸</span> Образовательно-творческий час «Наследие в руках: мир ремесел» <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Образовательно-творческий час «Наследие в руках: мир ремесел» <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">11689</td>
         <td class="mono nowrap">72275268</td>
@@ -16343,7 +16341,7 @@
 <tr class="group" data-gid="g77" data-search="история нашего дома 55405450 9276">
         <td class="nowrap">02-11-2026 11:42:16</td>
         <td class="nowrap">11.11 – 13.11</td>
-        <td><span class="arrow">▸</span> ИСТОРИЯ НАШЕГО ДОМА <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> ИСТОРИЯ НАШЕГО ДОМА <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9276</td>
         <td class="mono nowrap">55405450</td>
@@ -16487,7 +16485,7 @@
 <tr class="group" data-gid="g78" data-search="женитьба бальзаминова 67953508 5280">
         <td class="nowrap">02-11-2026 11:08:52</td>
         <td class="nowrap">08.11 – 19.11</td>
-        <td><span class="arrow">▸</span> Женитьба Бальзаминова <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Женитьба Бальзаминова <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">5280</td>
         <td class="mono nowrap">67953508</td>
@@ -16649,7 +16647,7 @@
 <tr class="group" data-gid="g79" data-search="интеллектуальная программа «страницы народной культуры» 76889763 13486">
         <td class="nowrap">02-11-2026 10:38:35</td>
         <td class="nowrap">12.11 – 20.11</td>
-        <td><span class="arrow">▸</span> Интеллектуальная программа «Страницы народной культуры» <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Интеллектуальная программа «Страницы народной культуры» <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">13486</td>
         <td class="mono nowrap">76889763</td>
@@ -16802,7 +16800,7 @@
 <tr class="group" data-gid="g80" data-search="интерактивный урок «моя родина – россия» 70453898 12468">
         <td class="nowrap">02-11-2026 10:08:15</td>
         <td class="nowrap">10.11 – 30.12</td>
-        <td><span class="arrow">▸</span> Интерактивный урок «Моя Родина – Россия» <span class="badge cnt">× 27</span></td>
+        <td><span class="arrow">▸</span> Интерактивный урок «Моя Родина – Россия» <span class="cnt">× 27</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12468</td>
         <td class="mono nowrap">70453898</td>
@@ -17108,7 +17106,7 @@
 <tr class="group" data-gid="g81" data-search="&quot;из уфы с любовью&quot; 67166221 6272">
         <td class="nowrap">02-11-2026 10:07:49</td>
         <td class="nowrap">10.03 – 15.03</td>
-        <td><span class="arrow">▸</span> &quot;Из Уфы с любовью&quot; <span class="badge cnt">× 5</span></td>
+        <td><span class="arrow">▸</span> &quot;Из Уфы с любовью&quot; <span class="cnt">× 5</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">6272</td>
         <td class="mono nowrap">67166221</td>
@@ -17171,7 +17169,7 @@
 <tr class="group" data-gid="g82" data-search="концерт «танцы народов мира» 14505355 12468">
         <td class="nowrap">02-11-2026 09:38:21</td>
         <td class="nowrap">11.11 – 30.12</td>
-        <td><span class="arrow">▸</span> Концерт «Танцы народов мира» <span class="badge cnt">× 15</span></td>
+        <td><span class="arrow">▸</span> Концерт «Танцы народов мира» <span class="cnt">× 15</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12468</td>
         <td class="mono nowrap">14505355</td>
@@ -17315,7 +17313,7 @@
 <tr class="group" data-gid="g83" data-search="&quot;твоя любимая музыка&quot; 68551037 6272">
         <td class="nowrap">02-11-2026 09:38:17</td>
         <td class="nowrap">11.11</td>
-        <td><span class="arrow">▸</span> &quot;Твоя любимая музыка&quot; <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> &quot;Твоя любимая музыка&quot; <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">6272</td>
         <td class="mono nowrap">68551037</td>
@@ -17468,7 +17466,7 @@
 <tr class="group" data-gid="g84" data-search="последний дракон 76693119 22016">
         <td class="nowrap">02-11-2026 09:09:49</td>
         <td class="nowrap">20.12 – 30.12</td>
-        <td><span class="arrow">▸</span> Последний дракон <span class="badge cnt">× 6</span></td>
+        <td><span class="arrow">▸</span> Последний дракон <span class="cnt">× 6</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">22016</td>
         <td class="mono nowrap">76693119</td>
@@ -17540,7 +17538,7 @@
 <tr class="group" data-gid="g85" data-search="мастер класс «секреты народного благополучия». 73097272 21669">
         <td class="nowrap">02-11-2026 09:08:14</td>
         <td class="nowrap">11.11 – 25.11</td>
-        <td><span class="arrow">▸</span> Мастер класс «Секреты народного благополучия». <span class="badge cnt">× 8</span></td>
+        <td><span class="arrow">▸</span> Мастер класс «Секреты народного благополучия». <span class="cnt">× 8</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">21669</td>
         <td class="mono nowrap">73097272</td>
@@ -17648,7 +17646,7 @@
 <tr class="group" data-gid="g86" data-search="мастер-класс «вхожу в мир искусства». 72708265 21669">
         <td class="nowrap">02-11-2026 08:39:30</td>
         <td class="nowrap">10.11 – 14.11</td>
-        <td><span class="arrow">▸</span> Мастер-класс «Вхожу в мир искусства». <span class="badge cnt">× 5</span></td>
+        <td><span class="arrow">▸</span> Мастер-класс «Вхожу в мир искусства». <span class="cnt">× 5</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">21669</td>
         <td class="mono nowrap">72708265</td>
@@ -17711,7 +17709,7 @@
 <tr class="group" data-gid="g87" data-search="автобусная экскурсия (ярославль) 47036511 18122">
         <td class="nowrap">02-11-2026 08:39:26</td>
         <td class="nowrap">01.11 – 31.12</td>
-        <td><span class="arrow">▸</span> Автобусная экскурсия (Ярославль) <span class="badge cnt">× 61</span></td>
+        <td><span class="arrow">▸</span> Автобусная экскурсия (Ярославль) <span class="cnt">× 61</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">18122</td>
         <td class="mono nowrap">47036511</td>
@@ -18287,7 +18285,7 @@
 <tr class="group" data-gid="g88" data-search="автобусная экскурсия (казань) 11113722 7282">
         <td class="nowrap">02-11-2026 08:38:59</td>
         <td class="nowrap">01.11 – 31.12</td>
-        <td><span class="arrow">▸</span> Автобусная экскурсия (Казань) <span class="badge cnt">× 121</span></td>
+        <td><span class="arrow">▸</span> Автобусная экскурсия (Казань) <span class="cnt">× 121</span></td>
         <td class="nowrap mono">open 90 / close 31</td>
         <td class="mono nowrap">7282</td>
         <td class="mono nowrap">11113722</td>
@@ -19385,7 +19383,7 @@
 <tr class="group" data-gid="g89" data-search="«я подарю тебе москву» (тематическая автобусная экскурсия с гидом) 11867315 7257">
         <td class="nowrap">02-11-2026 08:38:10</td>
         <td class="nowrap">02.11 – 30.11</td>
-        <td><span class="arrow">▸</span> «Я подарю тебе Москву» (Тематическая автобусная экскурсия с гидом) <span class="badge cnt">× 50</span></td>
+        <td><span class="arrow">▸</span> «Я подарю тебе Москву» (Тематическая автобусная экскурсия с гидом) <span class="cnt">× 50</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">7257</td>
         <td class="mono nowrap">11867315</td>
@@ -19844,7 +19842,7 @@
 <tr class="group" data-gid="g90" data-search="экскурсии с программой лояльности 11866191 7257">
         <td class="nowrap">02-11-2026 08:37:47</td>
         <td class="nowrap">02.11 – 30.11</td>
-        <td><span class="arrow">▸</span> Экскурсии с программой лояльности <span class="badge cnt">× 29</span></td>
+        <td><span class="arrow">▸</span> Экскурсии с программой лояльности <span class="cnt">× 29</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">7257</td>
         <td class="mono nowrap">11866191</td>
@@ -20114,7 +20112,7 @@
 <tr class="group" data-gid="g91" data-search="автобусная экскурсия (санкт-петербург) 11114290 7281">
         <td class="nowrap">02-11-2026 08:09:45</td>
         <td class="nowrap">01.11 – 31.12</td>
-        <td><span class="arrow">▸</span> Автобусная экскурсия (Санкт-Петербург) <span class="badge cnt">× 61</span></td>
+        <td><span class="arrow">▸</span> Автобусная экскурсия (Санкт-Петербург) <span class="cnt">× 61</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">7281</td>
         <td class="mono nowrap">11114290</td>
@@ -20681,7 +20679,7 @@
 <tr class="group" data-gid="g92" data-search="с наступающим! 71412210 11680">
         <td class="nowrap">02-11-2026 08:09:30</td>
         <td class="nowrap">11.12 – 12.12</td>
-        <td><span class="arrow">▸</span> С наступающим! <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> С наступающим! <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">11680</td>
         <td class="mono nowrap">71412210</td>
@@ -21014,7 +21012,7 @@
 <tr class="group" data-gid="g93" data-search="океанариум + дельфинарий 69288879 20818">
         <td class="nowrap">02-11-2026 01:11:30</td>
         <td class="nowrap">05.11 – 02.12</td>
-        <td><span class="arrow">▸</span> Океанариум + Дельфинарий <span class="badge cnt">× 6</span></td>
+        <td><span class="arrow">▸</span> Океанариум + Дельфинарий <span class="cnt">× 6</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">20818</td>
         <td class="mono nowrap">69288879</td>
@@ -21131,7 +21129,7 @@
 <tr class="group" data-gid="g94" data-search="выставка-конкурс стендовых моделей и росписи миниатюр &quot;матрешка&quot; 72941776 14491">
         <td class="nowrap">01-11-2026 22:40:43</td>
         <td class="nowrap">14.11</td>
-        <td><span class="arrow">▸</span> Выставка-конкурс стендовых моделей и росписи миниатюр &quot;Матрешка&quot; <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Выставка-конкурс стендовых моделей и росписи миниатюр &quot;Матрешка&quot; <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">14491</td>
         <td class="mono nowrap">72941776</td>
@@ -21275,7 +21273,7 @@
 <tr class="group" data-gid="g95" data-search="мастер-класс по настольному теннису 77532126 18623">
         <td class="nowrap">01-11-2026 20:39:16</td>
         <td class="nowrap">05.11 – 30.11</td>
-        <td><span class="arrow">▸</span> Мастер-класс по настольному теннису <span class="badge cnt">× 8</span></td>
+        <td><span class="arrow">▸</span> Мастер-класс по настольному теннису <span class="cnt">× 8</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">18623</td>
         <td class="mono nowrap">77532126</td>
@@ -21365,7 +21363,7 @@
 <tr class="group" data-gid="g96" data-search="сеанс массового фигурного катания 11962275 10054">
         <td class="nowrap">01-11-2026 19:54:51</td>
         <td class="nowrap">30.10 – 06.11</td>
-        <td><span class="arrow">▸</span> Сеанс массового фигурного катания <span class="badge cnt">× 15</span></td>
+        <td><span class="arrow">▸</span> Сеанс массового фигурного катания <span class="cnt">× 15</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">10054</td>
         <td class="mono nowrap">11962275</td>
@@ -21554,7 +21552,7 @@
 <tr class="group" data-gid="g97" data-search="сеанс массового хоккейного катания 11963223 10054">
         <td class="nowrap">01-11-2026 17:54:05</td>
         <td class="nowrap">31.10 – 06.11</td>
-        <td><span class="arrow">▸</span> Сеанс массового хоккейного катания <span class="badge cnt">× 16</span></td>
+        <td><span class="arrow">▸</span> Сеанс массового хоккейного катания <span class="cnt">× 16</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">10054</td>
         <td class="mono nowrap">11963223</td>
@@ -21995,7 +21993,7 @@
 <tr class="group" data-gid="g98" data-search="цирк &quot;колизеум&quot; г. челябинск 74683073 18201">
         <td class="nowrap">01-11-2026 13:05:59</td>
         <td class="nowrap">14.11 – 06.12</td>
-        <td><span class="arrow">▸</span> Цирк &quot;Колизеум&quot; г. Челябинск <span class="badge cnt">× 8</span></td>
+        <td><span class="arrow">▸</span> Цирк &quot;Колизеум&quot; г. Челябинск <span class="cnt">× 8</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">18201</td>
         <td class="mono nowrap">74683073</td>
@@ -22085,7 +22083,7 @@
 <tr class="group" data-gid="g99" data-search="активити-парк 14752983 12018">
         <td class="nowrap">01-11-2026 12:37:58</td>
         <td class="nowrap">01.11 – 08.11</td>
-        <td><span class="arrow">▸</span> Активити-парк <span class="badge cnt">× 57</span></td>
+        <td><span class="arrow">▸</span> Активити-парк <span class="cnt">× 57</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12018</td>
         <td class="mono nowrap">14752983</td>
@@ -22616,7 +22614,7 @@
 <tr class="group" data-gid="g100" data-search="портрет времени 76735210 16511">
         <td class="nowrap">01-11-2026 12:07:50</td>
         <td class="nowrap">29.10 – 11.11</td>
-        <td><span class="arrow">▸</span> Портрет времени <span class="badge cnt">× 12</span></td>
+        <td><span class="arrow">▸</span> Портрет времени <span class="cnt">× 12</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">16511</td>
         <td class="mono nowrap">76735210</td>
@@ -22751,7 +22749,7 @@
 <tr class="group" data-gid="g101" data-search="квест-экскурсия «тайны деревянного города» 61632026 11108">
         <td class="nowrap">01-11-2026 11:06:54</td>
         <td class="nowrap">08.11 – 29.11</td>
-        <td><span class="arrow">▸</span> Квест-экскурсия «Тайны деревянного города» <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Квест-экскурсия «Тайны деревянного города» <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">11108</td>
         <td class="mono nowrap">61632026</td>
@@ -22796,7 +22794,7 @@
 <tr class="group" data-gid="g102" data-search="мастер-класс по созданию сувенирного наличника 72131371 11108">
         <td class="nowrap">01-11-2026 11:06:50</td>
         <td class="nowrap">07.11 – 29.11</td>
-        <td><span class="arrow">▸</span> Мастер-класс по созданию сувенирного наличника <span class="badge cnt">× 8</span></td>
+        <td><span class="arrow">▸</span> Мастер-класс по созданию сувенирного наличника <span class="cnt">× 8</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">11108</td>
         <td class="mono nowrap">72131371</td>
@@ -22877,7 +22875,7 @@
 <tr class="group" data-gid="g103" data-search="мастер-класс по изготовлению куклы «народная кукла» 63366956 11108">
         <td class="nowrap">01-11-2026 11:04:24</td>
         <td class="nowrap">07.11 – 28.11</td>
-        <td><span class="arrow">▸</span> Мастер-класс по изготовлению куклы «Народная кукла» <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Мастер-класс по изготовлению куклы «Народная кукла» <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">11108</td>
         <td class="mono nowrap">63366956</td>
@@ -22922,7 +22920,7 @@
 <tr class="group" data-gid="g104" data-search="мастер-класс по росписи значка &quot;домик в кармашке&quot; 63857244 11108">
         <td class="nowrap">01-11-2026 11:04:18</td>
         <td class="nowrap">07.11 – 28.11</td>
-        <td><span class="arrow">▸</span> Мастер-класс по росписи значка &quot;Домик в кармашке&quot; <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Мастер-класс по росписи значка &quot;Домик в кармашке&quot; <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">11108</td>
         <td class="mono nowrap">63857244</td>
@@ -22976,7 +22974,7 @@
 <tr class="group" data-gid="g105" data-search="мастер-класс по мокрому валянию «валенки-малютки» 63369216 11108">
         <td class="nowrap">01-11-2026 10:36:13</td>
         <td class="nowrap">06.11 – 27.11</td>
-        <td><span class="arrow">▸</span> Мастер-класс по мокрому валянию «Валенки-малютки» <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Мастер-класс по мокрому валянию «Валенки-малютки» <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">11108</td>
         <td class="mono nowrap">63369216</td>
@@ -23066,7 +23064,7 @@
 <tr class="group" data-gid="g106" data-search="экскурсия «тюмень деревянная: история и современность» 60250464 11108">
         <td class="nowrap">01-11-2026 09:35:20</td>
         <td class="nowrap">05.11 – 29.11</td>
-        <td><span class="arrow">▸</span> Экскурсия «Тюмень деревянная: история и современность» <span class="badge cnt">× 49</span></td>
+        <td><span class="arrow">▸</span> Экскурсия «Тюмень деревянная: история и современность» <span class="cnt">× 49</span></td>
         <td class="nowrap mono">open 16 / pause 33</td>
         <td class="mono nowrap">11108</td>
         <td class="mono nowrap">60250464</td>
@@ -23516,7 +23514,7 @@
 <tr class="group" data-gid="g107" data-search="операция «верните чудо» 77517629 18164">
         <td class="nowrap">01-11-2026 09:05:25</td>
         <td class="nowrap">23.12 – 25.12</td>
-        <td><span class="arrow">▸</span> Операция «Верните чудо» <span class="badge cnt">× 6</span></td>
+        <td><span class="arrow">▸</span> Операция «Верните чудо» <span class="cnt">× 6</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">18164</td>
         <td class="mono nowrap">77517629</td>
@@ -23678,7 +23676,7 @@
 <tr class="group" data-gid="g108" data-search="посиделки «традиции русского чаепития» 47312580 16333">
         <td class="nowrap">31-10-2026 22:17:45</td>
         <td class="nowrap">22.11 – 24.01</td>
-        <td><span class="arrow">▸</span> Посиделки «Традиции русского чаепития» <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Посиделки «Традиции русского чаепития» <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">16333</td>
         <td class="mono nowrap">47312580</td>
@@ -23732,7 +23730,7 @@
 <tr class="group" data-gid="g109" data-search="цирк &quot;граф орлов&quot; красноярск 77503540 19326">
         <td class="nowrap">31-10-2026 20:43:51</td>
         <td class="nowrap">26.12 – 10.01</td>
-        <td><span class="arrow">▸</span> Цирк &quot;Граф Орлов&quot; Красноярск <span class="badge cnt">× 16</span></td>
+        <td><span class="arrow">▸</span> Цирк &quot;Граф Орлов&quot; Красноярск <span class="cnt">× 16</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">19326</td>
         <td class="mono nowrap">77503540</td>
@@ -23894,7 +23892,7 @@
 <tr class="group" data-gid="g110" data-search="иистринские ведьмы 67044679 19804">
         <td class="nowrap">31-10-2026 19:45:53</td>
         <td class="nowrap">12.01 – 11.03</td>
-        <td><span class="arrow">▸</span> ИИстринские ведьмы <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> ИИстринские ведьмы <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">19804</td>
         <td class="mono nowrap">67044679</td>
@@ -23930,7 +23928,7 @@
 <tr class="group" data-gid="g111" data-search="лекции поэтического интенсива &quot;осенняя школа&quot; 77502119 19591">
         <td class="nowrap">31-10-2026 19:45:43</td>
         <td class="nowrap">10.11 – 24.11</td>
-        <td><span class="arrow">▸</span> Лекции поэтического интенсива &quot;Осенняя школа&quot; <span class="badge cnt">× 5</span></td>
+        <td><span class="arrow">▸</span> Лекции поэтического интенсива &quot;Осенняя школа&quot; <span class="cnt">× 5</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">19591</td>
         <td class="mono nowrap">77502119</td>
@@ -24317,7 +24315,7 @@
 <tr class="group" data-gid="g112" data-search="театрализованное представление &quot;осенний карнавал&quot; 11671786 9455">
         <td class="nowrap">31-10-2026 14:11:02</td>
         <td class="nowrap">29.10 – 08.11</td>
-        <td><span class="arrow">▸</span> Театрализованное представление &quot;Осенний карнавал&quot; <span class="badge cnt">× 12</span></td>
+        <td><span class="arrow">▸</span> Театрализованное представление &quot;Осенний карнавал&quot; <span class="cnt">× 12</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9455</td>
         <td class="mono nowrap">11671786</td>
@@ -24551,7 +24549,7 @@
 <tr class="group" data-gid="g113" data-search="стендап от топовых комиков в дружба-москва 76911820 22334">
         <td class="nowrap">31-10-2026 13:40:41</td>
         <td class="nowrap">14.11 – 28.11</td>
-        <td><span class="arrow">▸</span> СТЕНДАП ОТ ТОПОВЫХ КОМИКОВ В ДРУЖБА-МОСКВА <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> СТЕНДАП ОТ ТОПОВЫХ КОМИКОВ В ДРУЖБА-МОСКВА <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">22334</td>
         <td class="mono nowrap">76911820</td>
@@ -24713,7 +24711,7 @@
 <tr class="group" data-gid="g114" data-search="интерактивная экскурсия др дедушки мороза с росписью шара 14240479 14097">
         <td class="nowrap">31-10-2026 12:10:50</td>
         <td class="nowrap">14.11 – 20.11</td>
-        <td><span class="arrow">▸</span> Интерактивная экскурсия ДР Дедушки Мороза с росписью шара <span class="badge cnt">× 14</span></td>
+        <td><span class="arrow">▸</span> Интерактивная экскурсия ДР Дедушки Мороза с росписью шара <span class="cnt">× 14</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">14097</td>
         <td class="mono nowrap">14240479</td>
@@ -24857,7 +24855,7 @@
 <tr class="group" data-gid="g115" data-search="мастер-класс. ниточка. 44335554 12280">
         <td class="nowrap">31-10-2026 11:09:48</td>
         <td class="nowrap">04.11 – 07.11</td>
-        <td><span class="arrow">▸</span> Мастер-класс. Ниточка. <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Мастер-класс. Ниточка. <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12280</td>
         <td class="mono nowrap">44335554</td>
@@ -24965,7 +24963,7 @@
 <tr class="group" data-gid="g116" data-search="разовое занятие в группе. аквамозаика. 72365725 12280">
         <td class="nowrap">31-10-2026 11:09:37</td>
         <td class="nowrap">04.11 – 06.11</td>
-        <td><span class="arrow">▸</span> Разовое занятие в группе. АкваМозаика. <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Разовое занятие в группе. АкваМозаика. <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12280</td>
         <td class="mono nowrap">72365725</td>
@@ -25010,7 +25008,7 @@
 <tr class="group" data-gid="g117" data-search="разовое занятие в группе. каллиграфия. 66945785 12280">
         <td class="nowrap">31-10-2026 10:40:24</td>
         <td class="nowrap">28.10 – 05.11</td>
-        <td><span class="arrow">▸</span> Разовое занятие в группе. Каллиграфия. <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Разовое занятие в группе. Каллиграфия. <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12280</td>
         <td class="mono nowrap">66945785</td>
@@ -25046,7 +25044,7 @@
 <tr class="group" data-gid="g118" data-search="прогулка по музею сказок и волшебства 61002414 17197">
         <td class="nowrap">31-10-2026 10:40:24</td>
         <td class="nowrap">29.10 – 27.11</td>
-        <td><span class="arrow">▸</span> Прогулка по музею сказок и волшебства <span class="badge cnt">× 162</span></td>
+        <td><span class="arrow">▸</span> Прогулка по музею сказок и волшебства <span class="cnt">× 162</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">17197</td>
         <td class="mono nowrap">61002414</td>
@@ -26531,7 +26529,7 @@
 <tr class="group" data-gid="g119" data-search="мастер-класс. валяшка. 44332919 12280">
         <td class="nowrap">31-10-2026 10:40:12</td>
         <td class="nowrap">03.11 – 05.11</td>
-        <td><span class="arrow">▸</span> Мастер-класс. Валяшка. <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Мастер-класс. Валяшка. <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12280</td>
         <td class="mono nowrap">44332919</td>
@@ -26783,7 +26781,7 @@
 <tr class="group" data-gid="g120" data-search="выступление комиков и съёмка шоу &quot;дамы&quot; 70424582 14406">
         <td class="nowrap">30-10-2026 21:05:04</td>
         <td class="nowrap">07.11</td>
-        <td><span class="arrow">▸</span> Выступление комиков и съёмка шоу &quot;ДаМы&quot; <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Выступление комиков и съёмка шоу &quot;ДаМы&quot; <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">14406</td>
         <td class="mono nowrap">70424582</td>
@@ -27161,7 +27159,7 @@
 <tr class="group" data-gid="g121" data-search="ева власова 72979550 9056">
         <td class="nowrap">30-10-2026 18:41:24</td>
         <td class="nowrap">30.10 – 10.02</td>
-        <td><span class="arrow">▸</span> Ева ВЛАСОВА <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Ева ВЛАСОВА <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9056</td>
         <td class="mono nowrap">72979550</td>
@@ -27404,7 +27402,7 @@
 <tr class="group" data-gid="g122" data-search="лучшее 12546733 11377">
         <td class="nowrap">30-10-2026 18:09:36</td>
         <td class="nowrap">08.11 – 04.01</td>
-        <td><span class="arrow">▸</span> Лучшее <span class="badge cnt">× 8</span></td>
+        <td><span class="arrow">▸</span> Лучшее <span class="cnt">× 8</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">11377</td>
         <td class="mono nowrap">12546733</td>
@@ -27512,7 +27510,7 @@
 <tr class="group" data-gid="g123" data-search="стендап. открытый микрофон 14205070 11377">
         <td class="nowrap">30-10-2026 18:07:55</td>
         <td class="nowrap">28.10 – 18.11</td>
-        <td><span class="arrow">▸</span> Стендап. Открытый Микрофон <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Стендап. Открытый Микрофон <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">11377</td>
         <td class="mono nowrap">14205070</td>
@@ -27593,7 +27591,7 @@
 <tr class="group" data-gid="g124" data-search="маленькие комедии о главном 74197865 5280">
         <td class="nowrap">30-10-2026 17:37:02</td>
         <td class="nowrap">01.11 – 21.11</td>
-        <td><span class="arrow">▸</span> Маленькие комедии о главном <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Маленькие комедии о главном <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">5280</td>
         <td class="mono nowrap">74197865</td>
@@ -27701,7 +27699,7 @@
 <tr class="group" data-gid="g125" data-search="детское время! день открытых мастерских 77465398 13825">
         <td class="nowrap">30-10-2026 17:36:42</td>
         <td class="nowrap">03.11</td>
-        <td><span class="arrow">▸</span> Детское время! День открытых мастерских <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Детское время! День открытых мастерских <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">13825</td>
         <td class="mono nowrap">77465398</td>
@@ -27926,7 +27924,7 @@
 <tr class="group" data-gid="g126" data-search="топовые комики с новым шутками 75288539 22334">
         <td class="nowrap">30-10-2026 16:30:19</td>
         <td class="nowrap">16.11 – 22.11</td>
-        <td><span class="arrow">▸</span> Топовые комики с новым шутками <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Топовые комики с новым шутками <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">22334</td>
         <td class="mono nowrap">75288539</td>
@@ -27980,7 +27978,7 @@
 <tr class="group" data-gid="g127" data-search="опытные комики с тв и youtube 75289203 22334">
         <td class="nowrap">30-10-2026 16:30:17</td>
         <td class="nowrap">16.11 – 21.11</td>
-        <td><span class="arrow">▸</span> Опытные комики с ТВ и YouTube <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Опытные комики с ТВ и YouTube <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">22334</td>
         <td class="mono nowrap">75289203</td>
@@ -28115,7 +28113,7 @@
 <tr class="group" data-gid="g128" data-search="ночной стендап 74566882 22334">
         <td class="nowrap">30-10-2026 16:29:56</td>
         <td class="nowrap">20.11 – 28.11</td>
-        <td><span class="arrow">▸</span> Ночной стендап <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Ночной стендап <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">22334</td>
         <td class="mono nowrap">74566882</td>
@@ -28268,7 +28266,7 @@
 <tr class="group" data-gid="g129" data-search="свадьба кречинского 77469416 12990">
         <td class="nowrap">30-10-2026 16:29:46</td>
         <td class="nowrap">26.02 – 06.03</td>
-        <td><span class="arrow">▸</span> Свадьба Кречинского <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Свадьба Кречинского <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12990</td>
         <td class="mono nowrap">77469416</td>
@@ -28763,7 +28761,7 @@
 <tr class="group" data-gid="g130" data-search="тест 73598943 9622">
         <td class="nowrap">30-10-2026 14:38:51</td>
         <td class="nowrap">31.10</td>
-        <td><span class="arrow">▸</span> ТЕСТ <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> ТЕСТ <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9622</td>
         <td class="mono nowrap">73598943</td>
@@ -28889,7 +28887,7 @@
 <tr class="group" data-gid="g131" data-search="обучающий мастер-класс &quot;гипсовая фантазия&quot; 56057058 12361">
         <td class="nowrap">30-10-2026 14:07:10</td>
         <td class="nowrap">10.11 – 26.11</td>
-        <td><span class="arrow">▸</span> Обучающий мастер-класс &quot;Гипсовая фантазия&quot; <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Обучающий мастер-класс &quot;Гипсовая фантазия&quot; <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12361</td>
         <td class="mono nowrap">56057058</td>
@@ -28943,7 +28941,7 @@
 <tr class="group" data-gid="g132" data-search="обучающий мастер-класс «волшебные узелки» 56061902 12361">
         <td class="nowrap">30-10-2026 14:07:05</td>
         <td class="nowrap">07.11 – 21.11</td>
-        <td><span class="arrow">▸</span> Обучающий мастер-класс «Волшебные узелки» <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Обучающий мастер-класс «Волшебные узелки» <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12361</td>
         <td class="mono nowrap">56061902</td>
@@ -28979,7 +28977,7 @@
 <tr class="group" data-gid="g133" data-search="первые шаги 73103220 21903">
         <td class="nowrap">30-10-2026 14:07:01</td>
         <td class="nowrap">05.01 – 09.01</td>
-        <td><span class="arrow">▸</span> Первые шаги <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Первые шаги <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">21903</td>
         <td class="mono nowrap">73103220</td>
@@ -29042,7 +29040,7 @@
 <tr class="group" data-gid="g134" data-search="семейный квиз о науке 75800686 20923">
         <td class="nowrap">30-10-2026 14:06:55</td>
         <td class="nowrap">15.12 – 20.02</td>
-        <td><span class="arrow">▸</span> Семейный квиз о науке <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Семейный квиз о науке <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">20923</td>
         <td class="mono nowrap">75800686</td>
@@ -29087,7 +29085,7 @@
 <tr class="group" data-gid="g135" data-search="г.екатеринбург, спектакль &quot;крошечки-ладошечки, зимние сноведения&quot; 77436299 22049">
         <td class="nowrap">30-10-2026 14:05:18</td>
         <td class="nowrap">02.01 – 07.01</td>
-        <td><span class="arrow">▸</span> г.Екатеринбург, спектакль &quot;Крошечки-ладошечки, зимние сноведения&quot; <span class="badge cnt">× 6</span></td>
+        <td><span class="arrow">▸</span> г.Екатеринбург, спектакль &quot;Крошечки-ладошечки, зимние сноведения&quot; <span class="cnt">× 6</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">22049</td>
         <td class="mono nowrap">77436299</td>
@@ -29204,7 +29202,7 @@
 <tr class="group" data-gid="g136" data-search="женихи по объявлению 12041655 5280">
         <td class="nowrap">30-10-2026 13:35:11</td>
         <td class="nowrap">30.10 – 15.11</td>
-        <td><span class="arrow">▸</span> Женихи по объявлению <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Женихи по объявлению <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">5280</td>
         <td class="mono nowrap">12041655</td>
@@ -29357,7 +29355,7 @@
 <tr class="group" data-gid="g137" data-search="каток «лужники» 68960341 20756">
         <td class="nowrap">30-10-2026 12:29:08</td>
         <td class="nowrap">23.11 – 29.11</td>
-        <td><span class="arrow">▸</span> Каток «Лужники» <span class="badge cnt">× 23</span></td>
+        <td><span class="arrow">▸</span> Каток «Лужники» <span class="cnt">× 23</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">20756</td>
         <td class="mono nowrap">68960341</td>
@@ -29609,7 +29607,7 @@
 <tr class="group" data-gid="g138" data-search="новогодний спектакль &quot;морозко.волшебный колодец&quot; 77459141 20446">
         <td class="nowrap">30-10-2026 12:28:43</td>
         <td class="nowrap">20.12 – 27.12</td>
-        <td><span class="arrow">▸</span> Новогодний спектакль &quot;Морозко.Волшебный колодец&quot; <span class="badge cnt">× 9</span></td>
+        <td><span class="arrow">▸</span> Новогодний спектакль &quot;Морозко.Волшебный колодец&quot; <span class="cnt">× 9</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">20446</td>
         <td class="mono nowrap">77459141</td>
@@ -29708,7 +29706,7 @@
 <tr class="group" data-gid="g139" data-search="ученик колдуна 77215546 9276">
         <td class="nowrap">30-10-2026 12:26:07</td>
         <td class="nowrap">22.12 – 29.12</td>
-        <td><span class="arrow">▸</span> Ученик колдуна <span class="badge cnt">× 9</span></td>
+        <td><span class="arrow">▸</span> Ученик колдуна <span class="cnt">× 9</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9276</td>
         <td class="mono nowrap">77215546</td>
@@ -29798,7 +29796,7 @@
 <tr class="group" data-gid="g140" data-search="поздравление от деда мороза 77215541 9276">
         <td class="nowrap">30-10-2026 12:26:03</td>
         <td class="nowrap">22.12 – 29.12</td>
-        <td><span class="arrow">▸</span> Поздравление от Деда Мороза <span class="badge cnt">× 9</span></td>
+        <td><span class="arrow">▸</span> Поздравление от Деда Мороза <span class="cnt">× 9</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9276</td>
         <td class="mono nowrap">77215541</td>
@@ -29888,7 +29886,7 @@
 <tr class="group" data-gid="g141" data-search="волшебная хлопушка, или новогодние приключения иванушки 77215540 9276">
         <td class="nowrap">30-10-2026 11:56:30</td>
         <td class="nowrap">22.12 – 29.12</td>
-        <td><span class="arrow">▸</span> Волшебная хлопушка, или новогодние приключения Иванушки <span class="badge cnt">× 9</span></td>
+        <td><span class="arrow">▸</span> Волшебная хлопушка, или новогодние приключения Иванушки <span class="cnt">× 9</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9276</td>
         <td class="mono nowrap">77215540</td>
@@ -29987,7 +29985,7 @@
 <tr class="group" data-gid="g142" data-search="новогодний абонемент 76789286 9276">
         <td class="nowrap">30-10-2026 11:56:30</td>
         <td class="nowrap">22.12 – 29.12</td>
-        <td><span class="arrow">▸</span> Новогодний Абонемент <span class="badge cnt">× 9</span></td>
+        <td><span class="arrow">▸</span> Новогодний Абонемент <span class="cnt">× 9</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9276</td>
         <td class="mono nowrap">76789286</td>
@@ -30140,7 +30138,7 @@
 <tr class="group" data-gid="g143" data-search="обзорные экскурсии 2026 14085455 14097">
         <td class="nowrap">30-10-2026 11:54:36</td>
         <td class="nowrap">07.11 – 13.11</td>
-        <td><span class="arrow">▸</span> Обзорные экскурсии 2026 <span class="badge cnt">× 29</span></td>
+        <td><span class="arrow">▸</span> Обзорные экскурсии 2026 <span class="cnt">× 29</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">14097</td>
         <td class="mono nowrap">14085455</td>
@@ -30410,7 +30408,7 @@
 <tr class="group" data-gid="g144" data-search="&quot;иллюзия реальности&quot; 77461417 2646">
         <td class="nowrap">30-10-2026 11:54:36</td>
         <td class="nowrap">13.02 – 30.05</td>
-        <td><span class="arrow">▸</span> &quot;Иллюзия реальности&quot; <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> &quot;Иллюзия реальности&quot; <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">2646</td>
         <td class="mono nowrap">77461417</td>
@@ -30464,7 +30462,7 @@
 <tr class="group" data-gid="g145" data-search="новогоднее чудо: волшебная встреча с дедом морозом и снегурочкой 77440215 4061">
         <td class="nowrap">30-10-2026 11:24:38</td>
         <td class="nowrap">19.12</td>
-        <td><span class="arrow">▸</span> Новогоднее чудо: волшебная встреча с Дедом Морозом и Снегурочкой <span class="badge cnt">× 5</span></td>
+        <td><span class="arrow">▸</span> Новогоднее чудо: волшебная встреча с Дедом Морозом и Снегурочкой <span class="cnt">× 5</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">4061</td>
         <td class="mono nowrap">77440215</td>
@@ -30599,7 +30597,7 @@
 <tr class="group" data-gid="g146" data-search="охота жить 76235707 9276">
         <td class="nowrap">30-10-2026 10:51:51</td>
         <td class="nowrap">05.12 – 29.12</td>
-        <td><span class="arrow">▸</span> Охота жить <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Охота жить <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9276</td>
         <td class="mono nowrap">76235707</td>
@@ -30644,7 +30642,7 @@
 <tr class="group" data-gid="g147" data-search="трогатьельный спектакль 14520963 13757">
         <td class="nowrap">30-10-2026 10:51:50</td>
         <td class="nowrap">02.12 – 10.12</td>
-        <td><span class="arrow">▸</span> ТРОГАТЬельный спектакль <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> ТРОГАТЬельный спектакль <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">13757</td>
         <td class="mono nowrap">14520963</td>
@@ -30752,7 +30750,7 @@
 <tr class="group" data-gid="g148" data-search="приключения коли и миши 73333342 21903">
         <td class="nowrap">30-10-2026 10:50:03</td>
         <td class="nowrap">04.01</td>
-        <td><span class="arrow">▸</span> Приключения Коли и Миши <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Приключения Коли и Миши <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">21903</td>
         <td class="mono nowrap">73333342</td>
@@ -30887,7 +30885,7 @@
 <tr class="group" data-gid="g149" data-search="виртуальная экскурсия «святыни буйской земли: ликургская сторона» 77458340 21584">
         <td class="nowrap">30-10-2026 10:18:48</td>
         <td class="nowrap">09.11 – 30.12</td>
-        <td><span class="arrow">▸</span> Виртуальная экскурсия «Святыни Буйской земли: Ликургская сторона» <span class="badge cnt">× 38</span></td>
+        <td><span class="arrow">▸</span> Виртуальная экскурсия «Святыни Буйской земли: Ликургская сторона» <span class="cnt">× 38</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">21584</td>
         <td class="mono nowrap">77458340</td>
@@ -31292,7 +31290,7 @@
 <tr class="group" data-gid="g150" data-search="новогодние поиски маши 77459185 7406">
         <td class="nowrap">30-10-2026 10:14:00</td>
         <td class="nowrap">27.12 – 04.01</td>
-        <td><span class="arrow">▸</span> Новогодние поиски Маши <span class="badge cnt">× 13</span></td>
+        <td><span class="arrow">▸</span> Новогодние поиски Маши <span class="cnt">× 13</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">7406</td>
         <td class="mono nowrap">77459185</td>
@@ -31508,7 +31506,7 @@
 <tr class="group" data-gid="g151" data-search="автобусная экскурсия (нижний новгород) 11351836 8567">
         <td class="nowrap">30-10-2026 09:43:50</td>
         <td class="nowrap">01.11 – 31.12</td>
-        <td><span class="arrow">▸</span> Автобусная экскурсия (Нижний Новгород) <span class="badge cnt">× 61</span></td>
+        <td><span class="arrow">▸</span> Автобусная экскурсия (Нижний Новгород) <span class="cnt">× 61</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">8567</td>
         <td class="mono nowrap">11351836</td>
@@ -32102,7 +32100,7 @@
 <tr class="group" data-gid="g152" data-search="автобусная экскурсия (москва) 11099717 7257">
         <td class="nowrap">30-10-2026 09:42:49</td>
         <td class="nowrap">01.11 – 31.12</td>
-        <td><span class="arrow">▸</span> Автобусная экскурсия (Москва) <span class="badge cnt">× 110</span></td>
+        <td><span class="arrow">▸</span> Автобусная экскурсия (Москва) <span class="cnt">× 110</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">7257</td>
         <td class="mono nowrap">11099717</td>
@@ -33146,7 +33144,7 @@
 <tr class="group" data-gid="g153" data-search="моноспектакль &quot;маленький принц&quot; 70478621 12241">
         <td class="nowrap">30-10-2026 09:40:03</td>
         <td class="nowrap">11.11 – 11.12</td>
-        <td><span class="arrow">▸</span> Моноспектакль &quot;Маленький Принц&quot; <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Моноспектакль &quot;Маленький Принц&quot; <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12241</td>
         <td class="mono nowrap">70478621</td>
@@ -33200,7 +33198,7 @@
 <tr class="group" data-gid="g154" data-search="скандал заказывали? 51912230 1769">
         <td class="nowrap">30-10-2026 09:39:59</td>
         <td class="nowrap">18.02 – 21.02</td>
-        <td><span class="arrow">▸</span> Скандал заказывали? <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Скандал заказывали? <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">1769</td>
         <td class="mono nowrap">51912230</td>
@@ -33236,7 +33234,7 @@
 <tr class="group" data-gid="g155" data-search="&quot;глазами художника&quot; 76925736 22728">
         <td class="nowrap">30-10-2026 09:10:21</td>
         <td class="nowrap">10.11 – 19.11</td>
-        <td><span class="arrow">▸</span> &quot;Глазами художника&quot; <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> &quot;Глазами художника&quot; <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">22728</td>
         <td class="mono nowrap">76925736</td>
@@ -33362,7 +33360,7 @@
 <tr class="group" data-gid="g156" data-search="свидание на четверых 12963963 1769">
         <td class="nowrap">30-10-2026 08:35:36</td>
         <td class="nowrap">21.01 – 28.01</td>
-        <td><span class="arrow">▸</span> Свидание на четверых <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Свидание на четверых <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">1769</td>
         <td class="mono nowrap">12963963</td>
@@ -33542,7 +33540,7 @@
 <tr class="group" data-gid="g157" data-search="экскурсия 12672538 9095">
         <td class="nowrap">30-10-2026 06:39:52</td>
         <td class="nowrap">30.10 – 24.11</td>
-        <td><span class="arrow">▸</span> Экскурсия <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Экскурсия <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9095</td>
         <td class="mono nowrap">12672538</td>
@@ -33866,7 +33864,7 @@
 <tr class="group" data-gid="g158" data-search="спектакль &quot;планета детства&quot; 77450010 21686">
         <td class="nowrap">30-10-2026 02:19:18</td>
         <td class="nowrap">26.12 – 30.12</td>
-        <td><span class="arrow">▸</span> Спектакль &quot;Планета детства&quot; <span class="badge cnt">× 5</span></td>
+        <td><span class="arrow">▸</span> Спектакль &quot;Планета детства&quot; <span class="cnt">× 5</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">21686</td>
         <td class="mono nowrap">77450010</td>
@@ -34001,7 +33999,7 @@
 <tr class="group" data-gid="g159" data-search="«новогоднее приключение мороза ивановича» 77444145 17662">
         <td class="nowrap">29-10-2026 20:08:21</td>
         <td class="nowrap">27.12 – 30.12</td>
-        <td><span class="arrow">▸</span> «НОВОГОДНЕЕ ПРИКЛЮЧЕНИЕ МОРОЗА ИВАНОВИЧА» <span class="badge cnt">× 8</span></td>
+        <td><span class="arrow">▸</span> «НОВОГОДНЕЕ ПРИКЛЮЧЕНИЕ МОРОЗА ИВАНОВИЧА» <span class="cnt">× 8</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">17662</td>
         <td class="mono nowrap">77444145</td>
@@ -34100,7 +34098,7 @@
 <tr class="group" data-gid="g160" data-search="ёлка в цирке в красногорске 77348827 4745">
         <td class="nowrap">29-10-2026 19:38:49</td>
         <td class="nowrap">26.12 – 17.01</td>
-        <td><span class="arrow">▸</span> ЁЛКА В ЦИРКЕ в Красногорске <span class="badge cnt">× 13</span></td>
+        <td><span class="arrow">▸</span> ЁЛКА В ЦИРКЕ в Красногорске <span class="cnt">× 13</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">4745</td>
         <td class="mono nowrap">77348827</td>
@@ -34253,7 +34251,7 @@
 <tr class="group" data-gid="g161" data-search="«бу-ра-ти-но. новый год на носу» 77442635 17662">
         <td class="nowrap">29-10-2026 19:06:50</td>
         <td class="nowrap">23.12 – 05.01</td>
-        <td><span class="arrow">▸</span> «БУ-РА-ТИ-НО. НОВЫЙ ГОД НА НОСУ» <span class="badge cnt">× 14</span></td>
+        <td><span class="arrow">▸</span> «БУ-РА-ТИ-НО. НОВЫЙ ГОД НА НОСУ» <span class="cnt">× 14</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">17662</td>
         <td class="mono nowrap">77442635</td>
@@ -34577,7 +34575,7 @@
 <tr class="group" data-gid="g162" data-search="новогодний спектакль &quot;малыш и карлсон&quot; 77440721 21264">
         <td class="nowrap">29-10-2026 17:55:17</td>
         <td class="nowrap">19.12 – 29.12</td>
-        <td><span class="arrow">▸</span> Новогодний спектакль &quot;Малыш и Карлсон&quot; <span class="badge cnt">× 8</span></td>
+        <td><span class="arrow">▸</span> Новогодний спектакль &quot;Малыш и Карлсон&quot; <span class="cnt">× 8</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">21264</td>
         <td class="mono nowrap">77440721</td>
@@ -34775,7 +34773,7 @@
 <tr class="group" data-gid="g163" data-search="олений хоровод 74678082 22391">
         <td class="nowrap">29-10-2026 16:51:21</td>
         <td class="nowrap">06.12 – 21.12</td>
-        <td><span class="arrow">▸</span> Олений хоровод <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Олений хоровод <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">22391</td>
         <td class="mono nowrap">74678082</td>
@@ -34937,7 +34935,7 @@
 <tr class="group" data-gid="g164" data-search="&quot;мир чудес&quot; 77432103 2646">
         <td class="nowrap">29-10-2026 16:48:19</td>
         <td class="nowrap">13.02 – 30.05</td>
-        <td><span class="arrow">▸</span> &quot;Мир чудес&quot; <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> &quot;Мир чудес&quot; <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">2646</td>
         <td class="mono nowrap">77432103</td>
@@ -35009,7 +35007,7 @@
 <tr class="group" data-gid="g165" data-search="рдк. новогодний музыкальный спектакль «вовка в тридесятом царстве» 77437027 17306">
         <td class="nowrap">29-10-2026 15:48:42</td>
         <td class="nowrap">22.12 – 29.12</td>
-        <td><span class="arrow">▸</span> РДК. Новогодний музыкальный спектакль «Вовка в Тридесятом царстве» <span class="badge cnt">× 8</span></td>
+        <td><span class="arrow">▸</span> РДК. Новогодний музыкальный спектакль «Вовка в Тридесятом царстве» <span class="cnt">× 8</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">17306</td>
         <td class="mono nowrap">77437027</td>
@@ -35108,7 +35106,7 @@
 <tr class="group" data-gid="g166" data-search="vr-программа &quot;поезд победы&quot; 57809967 2362">
         <td class="nowrap">29-10-2026 15:20:31</td>
         <td class="nowrap">02.12</td>
-        <td><span class="arrow">▸</span> VR-программа &quot;Поезд Победы&quot; <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> VR-программа &quot;Поезд Победы&quot; <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">2362</td>
         <td class="mono nowrap">57809967</td>
@@ -35297,7 +35295,7 @@
 <tr class="group" data-gid="g167" data-search="умные пальчики 77435179 14762">
         <td class="nowrap">29-10-2026 14:44:41</td>
         <td class="nowrap">06.11 – 27.11</td>
-        <td><span class="arrow">▸</span> Умные пальчики <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Умные пальчики <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">14762</td>
         <td class="mono nowrap">77435179</td>
@@ -35387,7 +35385,7 @@
 <tr class="group" data-gid="g168" data-search="ирина круг 45722500 9056">
         <td class="nowrap">29-10-2026 14:43:26</td>
         <td class="nowrap">26.01 – 08.03</td>
-        <td><span class="arrow">▸</span> Ирина КРУГ <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Ирина КРУГ <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9056</td>
         <td class="mono nowrap">45722500</td>
@@ -35432,7 +35430,7 @@
 <tr class="group" data-gid="g169" data-search="мастер-класс &quot;рисование песком&quot; 76312914 14762">
         <td class="nowrap">29-10-2026 14:13:41</td>
         <td class="nowrap">05.11 – 26.11</td>
-        <td><span class="arrow">▸</span> Мастер-класс &quot;Рисование песком&quot; <span class="badge cnt">× 6</span></td>
+        <td><span class="arrow">▸</span> Мастер-класс &quot;Рисование песком&quot; <span class="cnt">× 6</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">14762</td>
         <td class="mono nowrap">76312914</td>
@@ -35513,7 +35511,7 @@
 <tr class="group" data-gid="g170" data-search="сказки и легенды народов 76096237 21903">
         <td class="nowrap">29-10-2026 14:13:31</td>
         <td class="nowrap">10.11 – 20.11</td>
-        <td><span class="arrow">▸</span> Сказки и легенды народов <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Сказки и легенды народов <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">21903</td>
         <td class="mono nowrap">76096237</td>
@@ -35549,7 +35547,7 @@
 <tr class="group" data-gid="g171" data-search="интерактивное представление &quot;новогодний бал для золушки&quot; 76900599 4061">
         <td class="nowrap">29-10-2026 14:13:31</td>
         <td class="nowrap">19.12 – 27.12</td>
-        <td><span class="arrow">▸</span> Интерактивное представление &quot;Новогодний бал для Золушки&quot; <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Интерактивное представление &quot;Новогодний бал для Золушки&quot; <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">4061</td>
         <td class="mono nowrap">76900599</td>
@@ -35621,7 +35619,7 @@
 <tr class="group" data-gid="g172" data-search="тайны нового года 77433676 21586">
         <td class="nowrap">29-10-2026 13:39:37</td>
         <td class="nowrap">26.12</td>
-        <td><span class="arrow">▸</span> Тайны Нового года <span class="badge cnt">× 5</span></td>
+        <td><span class="arrow">▸</span> Тайны Нового года <span class="cnt">× 5</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">21586</td>
         <td class="mono nowrap">77433676</td>
@@ -36035,7 +36033,7 @@
 <tr class="group" data-gid="g173" data-search="мк &quot;хореография&quot; (малкова) 75455559 21903">
         <td class="nowrap">29-10-2026 12:34:53</td>
         <td class="nowrap">01.11 – 29.11</td>
-        <td><span class="arrow">▸</span> МК &quot;хореография&quot; (Малкова) <span class="badge cnt">× 9</span></td>
+        <td><span class="arrow">▸</span> МК &quot;хореография&quot; (Малкова) <span class="cnt">× 9</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">21903</td>
         <td class="mono nowrap">75455559</td>
@@ -36170,7 +36168,7 @@
 <tr class="group" data-gid="g174" data-search="массовое катание на коньках 47435004 18127">
         <td class="nowrap">29-10-2026 12:04:42</td>
         <td class="nowrap">30.10 – 01.11</td>
-        <td><span class="arrow">▸</span> Массовое катание на коньках <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Массовое катание на коньках <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">18127</td>
         <td class="mono nowrap">47435004</td>
@@ -36224,7 +36222,7 @@
 <tr class="group" data-gid="g175" data-search="мк &quot;актерское мастерство&quot; (ронская) 75457207 21903">
         <td class="nowrap">29-10-2026 12:04:40</td>
         <td class="nowrap">01.11 – 15.11</td>
-        <td><span class="arrow">▸</span> МК &quot;актерское мастерство&quot; (Ронская) <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> МК &quot;актерское мастерство&quot; (Ронская) <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">21903</td>
         <td class="mono nowrap">75457207</td>
@@ -36350,7 +36348,7 @@
 <tr class="group" data-gid="g176" data-search="секрет новогоднего чуда 77430272 4301">
         <td class="nowrap">29-10-2026 12:01:36</td>
         <td class="nowrap">25.12 – 27.12</td>
-        <td><span class="arrow">▸</span> Секрет новогоднего чуда <span class="badge cnt">× 6</span></td>
+        <td><span class="arrow">▸</span> Секрет новогоднего чуда <span class="cnt">× 6</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">4301</td>
         <td class="mono nowrap">77430272</td>
@@ -36458,7 +36456,7 @@
 <tr class="group" data-gid="g177" data-search="новогодняя роспись пряников и экскурсия в музее 67450059 20181">
         <td class="nowrap">29-10-2026 11:58:29</td>
         <td class="nowrap">02.12 – 20.12</td>
-        <td><span class="arrow">▸</span> НОВОГОДНЯЯ РОСПИСЬ ПРЯНИКОВ и экскурсия в Музее <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> НОВОГОДНЯЯ РОСПИСЬ ПРЯНИКОВ и экскурсия в Музее <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все close</td>
         <td class="mono nowrap">20181</td>
         <td class="mono nowrap">67450059</td>
@@ -36584,7 +36582,7 @@
 <tr class="group" data-gid="g178" data-search="новогоднее цирковое представление &quot;маленький принц&quot; 77429965 21513">
         <td class="nowrap">29-10-2026 11:29:26</td>
         <td class="nowrap">15.12 – 26.12</td>
-        <td><span class="arrow">▸</span> Новогоднее цирковое представление &quot;Маленький принц&quot; <span class="badge cnt">× 16</span></td>
+        <td><span class="arrow">▸</span> Новогоднее цирковое представление &quot;Маленький принц&quot; <span class="cnt">× 16</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">21513</td>
         <td class="mono nowrap">77429965</td>
@@ -36881,7 +36879,7 @@
 <tr class="group" data-gid="g179" data-search="мк &quot;сценическая речь&quot; (ронская) 75457250 21903">
         <td class="nowrap">29-10-2026 10:58:51</td>
         <td class="nowrap">07.11 – 28.11</td>
-        <td><span class="arrow">▸</span> МК &quot;сценическая речь&quot; (Ронская) <span class="badge cnt">× 5</span></td>
+        <td><span class="arrow">▸</span> МК &quot;сценическая речь&quot; (Ронская) <span class="cnt">× 5</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">21903</td>
         <td class="mono nowrap">75457250</td>
@@ -36971,7 +36969,7 @@
 <tr class="group" data-gid="g180" data-search="участники сво 77114624 11488">
         <td class="nowrap">29-10-2026 10:58:44</td>
         <td class="nowrap">01.11 – 29.11</td>
-        <td><span class="arrow">▸</span> Участники СВО <span class="badge cnt">× 5</span></td>
+        <td><span class="arrow">▸</span> Участники СВО <span class="cnt">× 5</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">11488</td>
         <td class="mono nowrap">77114624</td>
@@ -37052,7 +37050,7 @@
 <tr class="group" data-gid="g181" data-search="мк &quot;актерское мастерство&quot; (черных) 75455471 21903">
         <td class="nowrap">29-10-2026 10:58:34</td>
         <td class="nowrap">06.11 – 27.11</td>
-        <td><span class="arrow">▸</span> МК &quot;актерское мастерство&quot; (Черных) <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> МК &quot;актерское мастерство&quot; (Черных) <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">21903</td>
         <td class="mono nowrap">75455471</td>
@@ -37151,7 +37149,7 @@
 <tr class="group" data-gid="g182" data-search="мк &quot;сценическая речь&quot; (черных) 75455466 21903">
         <td class="nowrap">29-10-2026 10:56:57</td>
         <td class="nowrap">02.11 – 16.11</td>
-        <td><span class="arrow">▸</span> МК &quot;Сценическая речь&quot; (Черных) <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> МК &quot;Сценическая речь&quot; (Черных) <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">21903</td>
         <td class="mono nowrap">75455466</td>
@@ -37322,7 +37320,7 @@
 <tr class="group" data-gid="g183" data-search="мк &quot;хореография&quot; (клёнова) 75447179 21903">
         <td class="nowrap">29-10-2026 10:26:12</td>
         <td class="nowrap">08.11 – 25.11</td>
-        <td><span class="arrow">▸</span> МК &quot;Хореография&quot; (Клёнова) <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> МК &quot;Хореография&quot; (Клёнова) <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">21903</td>
         <td class="mono nowrap">75447179</td>
@@ -37385,7 +37383,7 @@
 <tr class="group" data-gid="g184" data-search="мк &quot;сценическое движение&quot;(залужьева) 75445544 21903">
         <td class="nowrap">29-10-2026 10:25:31</td>
         <td class="nowrap">07.11 – 28.11</td>
-        <td><span class="arrow">▸</span> МК &quot;Сценическое движение&quot;(Залужьева) <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> МК &quot;Сценическое движение&quot;(Залужьева) <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">21903</td>
         <td class="mono nowrap">75445544</td>
@@ -37637,7 +37635,7 @@
 <tr class="group" data-gid="g185" data-search="красная шапочка 76036612 11680">
         <td class="nowrap">29-10-2026 09:42:06</td>
         <td class="nowrap">02.11</td>
-        <td><span class="arrow">▸</span> Красная Шапочка <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Красная Шапочка <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">11680</td>
         <td class="mono nowrap">76036612</td>
@@ -37745,7 +37743,7 @@
 <tr class="group" data-gid="g186" data-search="мастер-класс по народному танцу &quot;тыпырдак&quot; 12945097 10701">
         <td class="nowrap">29-10-2026 09:12:21</td>
         <td class="nowrap">02.11 – 19.11</td>
-        <td><span class="arrow">▸</span> Мастер-класс по народному танцу &quot;Тыпырдак&quot; <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Мастер-класс по народному танцу &quot;Тыпырдак&quot; <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">10701</td>
         <td class="mono nowrap">12945097</td>
@@ -37925,7 +37923,7 @@
 <tr class="group" data-gid="g187" data-search="экскурсия &quot;легенды и тайны дома ленина&quot; 55804368 11680">
         <td class="nowrap">29-10-2026 08:38:27</td>
         <td class="nowrap">11.11 – 28.11</td>
-        <td><span class="arrow">▸</span> Экскурсия &quot;Легенды и тайны Дома Ленина&quot; <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Экскурсия &quot;Легенды и тайны Дома Ленина&quot; <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">11680</td>
         <td class="mono nowrap">55804368</td>
@@ -37970,7 +37968,7 @@
 <tr class="group" data-gid="g188" data-search="экскурсия &quot;закулисье музыкального мира&quot; 55806522 11680">
         <td class="nowrap">29-10-2026 08:38:15</td>
         <td class="nowrap">05.11 – 27.11</td>
-        <td><span class="arrow">▸</span> Экскурсия &quot;Закулисье музыкального мира&quot; <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Экскурсия &quot;Закулисье музыкального мира&quot; <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">11680</td>
         <td class="mono nowrap">55806522</td>
@@ -38105,7 +38103,7 @@
 <tr class="group" data-gid="g189" data-search="&quot; 36 и 6 &quot; (малый зал) 67277968 9095">
         <td class="nowrap">29-10-2026 07:51:53</td>
         <td class="nowrap">16.01 – 28.01</td>
-        <td><span class="arrow">▸</span> &quot; 36 и 6 &quot; (Малый зал) <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> &quot; 36 и 6 &quot; (Малый зал) <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все pause</td>
         <td class="mono nowrap">9095</td>
         <td class="mono nowrap">67277968</td>
@@ -38222,7 +38220,7 @@
 <tr class="group" data-gid="g190" data-search="все дело в шляпке(малый зал) 74627405 9095">
         <td class="nowrap">29-10-2026 07:09:24</td>
         <td class="nowrap">15.01 – 21.01</td>
-        <td><span class="arrow">▸</span> Все дело в шляпке(Малый зал) <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Все дело в шляпке(Малый зал) <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все pause</td>
         <td class="mono nowrap">9095</td>
         <td class="mono nowrap">74627405</td>
@@ -38348,7 +38346,7 @@
 <tr class="group" data-gid="g191" data-search="все мыши любят сыр 75443850 10147">
         <td class="nowrap">29-10-2026 07:09:18</td>
         <td class="nowrap">20.01 – 31.01</td>
-        <td><span class="arrow">▸</span> Все мыши любят сыр <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Все мыши любят сыр <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">10147</td>
         <td class="mono nowrap">75443850</td>
@@ -39041,7 +39039,7 @@
 <tr class="group" data-gid="g192" data-search="морозко 77409237 7454">
         <td class="nowrap">28-10-2026 19:14:35</td>
         <td class="nowrap">29.12 – 31.12</td>
-        <td><span class="arrow">▸</span> МОРОЗКО <span class="badge cnt">× 6</span></td>
+        <td><span class="arrow">▸</span> МОРОЗКО <span class="cnt">× 6</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">7454</td>
         <td class="mono nowrap">77409237</td>
@@ -39122,7 +39120,7 @@
 <tr class="group" data-gid="g193" data-search="большая новогодняя ночь в гастродворе 2027 77034672 22136">
         <td class="nowrap">28-10-2026 19:14:31</td>
         <td class="nowrap">31.12</td>
-        <td><span class="arrow">▸</span> БОЛЬШАЯ НОВОГОДНЯЯ НОЧЬ В ГАСТРОДВОРЕ 2027 <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> БОЛЬШАЯ НОВОГОДНЯЯ НОЧЬ В ГАСТРОДВОРЕ 2027 <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">22136</td>
         <td class="mono nowrap">77034672</td>
@@ -39455,7 +39453,7 @@
 <tr class="group" data-gid="g194" data-search="дед мороз и клоуны 77406117 9210">
         <td class="nowrap">28-10-2026 17:34:01</td>
         <td class="nowrap">05.12 – 26.12</td>
-        <td><span class="arrow">▸</span> Дед мороз и клоуны <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Дед мороз и клоуны <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">9210</td>
         <td class="mono nowrap">77406117</td>
@@ -39518,7 +39516,7 @@
 <tr class="group" data-gid="g195" data-search="летучий корабль 77376168 12990">
         <td class="nowrap">28-10-2026 17:02:43</td>
         <td class="nowrap">23.12 – 24.12</td>
-        <td><span class="arrow">▸</span> Летучий корабль <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Летучий корабль <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">12990</td>
         <td class="mono nowrap">77376168</td>
@@ -39572,7 +39570,7 @@
 <tr class="group" data-gid="g196" data-search="роспись пряников и экскурсия в музее 67448804 20181">
         <td class="nowrap">28-10-2026 17:02:27</td>
         <td class="nowrap">30.10 – 19.12</td>
-        <td><span class="arrow">▸</span> РОСПИСЬ ПРЯНИКОВ и экскурсия в Музее <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> РОСПИСЬ ПРЯНИКОВ и экскурсия в Музее <span class="cnt">× 4</span></td>
         <td class="nowrap mono">close 3 / open 1</td>
         <td class="mono nowrap">20181</td>
         <td class="mono nowrap">67448804</td>
@@ -39869,7 +39867,7 @@
 <tr class="group" data-gid="g197" data-search="экскурсия &quot;современник&quot;. путешествие во времени&quot; 37861321 11769">
         <td class="nowrap">28-10-2026 16:12:52</td>
         <td class="nowrap">12.12 – 26.12</td>
-        <td><span class="arrow">▸</span> Экскурсия &quot;СОВРЕМЕННИК&quot;. Путешествие во времени&quot; <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Экскурсия &quot;СОВРЕМЕННИК&quot;. Путешествие во времени&quot; <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">11769</td>
         <td class="mono nowrap">37861321</td>
@@ -39914,7 +39912,7 @@
 <tr class="group" data-gid="g198" data-search="новогодние происки маши 77405099 22408">
         <td class="nowrap">28-10-2026 16:12:44</td>
         <td class="nowrap">27.12 – 04.01</td>
-        <td><span class="arrow">▸</span> Новогодние происки Маши <span class="badge cnt">× 13</span></td>
+        <td><span class="arrow">▸</span> Новогодние происки Маши <span class="cnt">× 13</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">22408</td>
         <td class="mono nowrap">77405099</td>
@@ -40121,7 +40119,7 @@
 <tr class="group" data-gid="g199" data-search="цирк &quot;золото африки&quot; г.воронеж трк &quot;арена&quot; 77254861 16289">
         <td class="nowrap">28-10-2026 16:04:52</td>
         <td class="nowrap">02.01 – 10.01</td>
-        <td><span class="arrow">▸</span> Цирк &quot;Золото Африки&quot; г.Воронеж ТРК &quot;АРЕНА&quot; <span class="badge cnt">× 17</span></td>
+        <td><span class="arrow">▸</span> Цирк &quot;Золото Африки&quot; г.Воронеж ТРК &quot;АРЕНА&quot; <span class="cnt">× 17</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">16289</td>
         <td class="mono nowrap">77254861</td>
@@ -40553,7 +40551,7 @@
 <tr class="group" data-gid="g200" data-search="дети.оздоровительный бассейн 12941486 12802">
         <td class="nowrap">28-10-2026 15:01:16</td>
         <td class="nowrap">02.11 – 30.11</td>
-        <td><span class="arrow">▸</span> Дети.Оздоровительный бассейн <span class="badge cnt">× 25</span></td>
+        <td><span class="arrow">▸</span> Дети.Оздоровительный бассейн <span class="cnt">× 25</span></td>
         <td class="nowrap mono">close 22 / open 3</td>
         <td class="mono nowrap">12802</td>
         <td class="mono nowrap">12941486</td>
@@ -40796,7 +40794,7 @@
 <tr class="group" data-gid="g201" data-search="взрослый.оздоровительный бассейн 12467152 11488">
         <td class="nowrap">28-10-2026 15:01:05</td>
         <td class="nowrap">02.11 – 30.11</td>
-        <td><span class="arrow">▸</span> Взрослый.Оздоровительный бассейн <span class="badge cnt">× 25</span></td>
+        <td><span class="arrow">▸</span> Взрослый.Оздоровительный бассейн <span class="cnt">× 25</span></td>
         <td class="nowrap mono">close 22 / open 3</td>
         <td class="mono nowrap">11488</td>
         <td class="mono nowrap">12467152</td>
@@ -41597,7 +41595,7 @@
 <tr class="group" data-gid="g202" data-search="экскурсия по выставке «я в этот мир пришел, чтоб видеть солнце» светланы синицыной. 77401990 13957">
         <td class="nowrap">28-10-2026 12:28:38</td>
         <td class="nowrap">16.11 – 17.12</td>
-        <td><span class="arrow">▸</span> Экскурсия по выставке «Я в этот мир пришел, чтоб видеть солнце» Светланы Синицыной. <span class="badge cnt">× 8</span></td>
+        <td><span class="arrow">▸</span> Экскурсия по выставке «Я в этот мир пришел, чтоб видеть солнце» Светланы Синицыной. <span class="cnt">× 8</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">13957</td>
         <td class="mono nowrap">77401990</td>
@@ -41741,7 +41739,7 @@
 <tr class="group" data-gid="g203" data-search="цирк &quot;колизеум&quot; г. стерлитамак 77401217 18201">
         <td class="nowrap">28-10-2026 12:25:52</td>
         <td class="nowrap">21.11 – 13.12</td>
-        <td><span class="arrow">▸</span> Цирк &quot;Колизеум&quot; г. Стерлитамак <span class="badge cnt">× 12</span></td>
+        <td><span class="arrow">▸</span> Цирк &quot;Колизеум&quot; г. Стерлитамак <span class="cnt">× 12</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">18201</td>
         <td class="mono nowrap">77401217</td>
@@ -41993,7 +41991,7 @@
 <tr class="group" data-gid="g204" data-search="бѣда 57329480 18701">
         <td class="nowrap">28-10-2026 11:55:13</td>
         <td class="nowrap">19.11 – 29.11</td>
-        <td><span class="arrow">▸</span> Бѣда <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Бѣда <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все close</td>
         <td class="mono nowrap">18701</td>
         <td class="mono nowrap">57329480</td>
@@ -42038,7 +42036,7 @@
 <tr class="group" data-gid="g205" data-search="мышли-шишли 58847483 18701">
         <td class="nowrap">28-10-2026 11:55:09</td>
         <td class="nowrap">15.11 – 22.11</td>
-        <td><span class="arrow">▸</span> Мышли-Шишли <span class="badge cnt">× 5</span></td>
+        <td><span class="arrow">▸</span> Мышли-Шишли <span class="cnt">× 5</span></td>
         <td class="nowrap mono">все close</td>
         <td class="mono nowrap">18701</td>
         <td class="mono nowrap">58847483</td>
@@ -42092,7 +42090,7 @@
 <tr class="group" data-gid="g206" data-search="лепота 74850747 20820">
         <td class="nowrap">28-10-2026 11:55:09</td>
         <td class="nowrap">13.12 – 25.12</td>
-        <td><span class="arrow">▸</span> Лепота <span class="badge cnt">× 5</span></td>
+        <td><span class="arrow">▸</span> Лепота <span class="cnt">× 5</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">20820</td>
         <td class="mono nowrap">74850747</td>
@@ -42191,7 +42189,7 @@
 <tr class="group" data-gid="g207" data-search="баллада о рыцаре родриго 58846333 18701">
         <td class="nowrap">28-10-2026 11:54:17</td>
         <td class="nowrap">06.11 – 08.11</td>
-        <td><span class="arrow">▸</span> Баллада о рыцаре Родриго <span class="badge cnt">× 3</span></td>
+        <td><span class="arrow">▸</span> Баллада о рыцаре Родриго <span class="cnt">× 3</span></td>
         <td class="nowrap mono">все close</td>
         <td class="mono nowrap">18701</td>
         <td class="mono nowrap">58846333</td>
@@ -42308,7 +42306,7 @@
 <tr class="group" data-gid="g208" data-search="экскурсия по выставке «мгновения» наты камышан 77399582 13957">
         <td class="nowrap">28-10-2026 11:22:48</td>
         <td class="nowrap">13.11 – 18.12</td>
-        <td><span class="arrow">▸</span> Экскурсия по выставке «Мгновения» Наты Камышан <span class="badge cnt">× 10</span></td>
+        <td><span class="arrow">▸</span> Экскурсия по выставке «Мгновения» Наты Камышан <span class="cnt">× 10</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">13957</td>
         <td class="mono nowrap">77399582</td>
@@ -42434,7 +42432,7 @@
 <tr class="group" data-gid="g209" data-search="концерт «все мы вместе – мы едины» 77398837 18941">
         <td class="nowrap">28-10-2026 11:22:42</td>
         <td class="nowrap">02.11 – 05.11</td>
-        <td><span class="arrow">▸</span> Концерт «Все мы вместе – мы едины» <span class="badge cnt">× 16</span></td>
+        <td><span class="arrow">▸</span> Концерт «Все мы вместе – мы едины» <span class="cnt">× 16</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">18941</td>
         <td class="mono nowrap">77398837</td>
@@ -42605,7 +42603,7 @@
 <tr class="group" data-gid="g210" data-search="&quot;туос сирэй&quot; 77397939 10554">
         <td class="nowrap">28-10-2026 10:52:28</td>
         <td class="nowrap">02.01 – 10.01</td>
-        <td><span class="arrow">▸</span> &quot;Туос сирэй&quot; <span class="badge cnt">× 18</span></td>
+        <td><span class="arrow">▸</span> &quot;Туос сирэй&quot; <span class="cnt">× 18</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">10554</td>
         <td class="mono nowrap">77397939</td>
@@ -43226,7 +43224,7 @@
 <tr class="group" data-gid="g211" data-search="волк и семеро козлят 72294984 21697">
         <td class="nowrap">28-10-2026 09:14:56</td>
         <td class="nowrap">21.01 – 29.01</td>
-        <td><span class="arrow">▸</span> Волк и семеро козлят <span class="badge cnt">× 6</span></td>
+        <td><span class="arrow">▸</span> Волк и семеро козлят <span class="cnt">× 6</span></td>
         <td class="nowrap mono">все close</td>
         <td class="mono nowrap">21697</td>
         <td class="mono nowrap">72294984</td>
@@ -43289,7 +43287,7 @@
 <tr class="group" data-gid="g212" data-search="мастер-класс по акварельному скетчингу &quot;ромашки&quot; студии изобразительного любительского искусства &quot;акварели&quot; 77396339 10818">
         <td class="nowrap">28-10-2026 09:14:53</td>
         <td class="nowrap">05.11 – 25.11</td>
-        <td><span class="arrow">▸</span> Мастер-класс по акварельному скетчингу &quot;Ромашки&quot; студии изобразительного любительского искусства &quot;Акварели&quot; <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Мастер-класс по акварельному скетчингу &quot;Ромашки&quot; студии изобразительного любительского искусства &quot;Акварели&quot; <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">10818</td>
         <td class="mono nowrap">77396339</td>
@@ -43370,7 +43368,7 @@
 <tr class="group" data-gid="g213" data-search="мастер-класс &quot;жарки&quot; творческого объединения самодеятельных художников и мастеров декоративно-прикладного искусства &quot;вернисаж&quot; 77395678 10818">
         <td class="nowrap">28-10-2026 08:43:55</td>
         <td class="nowrap">03.11 – 24.11</td>
-        <td><span class="arrow">▸</span> Мастер-класс &quot;Жарки&quot; творческого объединения самодеятельных художников и мастеров декоративно-прикладного искусства &quot;Вернисаж&quot; <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Мастер-класс &quot;Жарки&quot; творческого объединения самодеятельных художников и мастеров декоративно-прикладного искусства &quot;Вернисаж&quot; <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">10818</td>
         <td class="mono nowrap">77395678</td>
@@ -43541,7 +43539,7 @@
 <tr class="group" data-gid="g214" data-search="утро новогодних чудес 77380735 21791">
         <td class="nowrap">28-10-2026 07:14:27</td>
         <td class="nowrap">02.01 – 05.01</td>
-        <td><span class="arrow">▸</span> Утро новогодних чудес <span class="badge cnt">× 4</span></td>
+        <td><span class="arrow">▸</span> Утро новогодних чудес <span class="cnt">× 4</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">21791</td>
         <td class="mono nowrap">77380735</td>
@@ -43874,7 +43872,7 @@
 <tr class="group" data-gid="g215" data-search="илья раевский - сольный концерт 69846610 20933">
         <td class="nowrap">28-10-2026 00:29:50</td>
         <td class="nowrap">03.01 – 10.01</td>
-        <td><span class="arrow">▸</span> Илья Раевский - сольный концерт <span class="badge cnt">× 5</span></td>
+        <td><span class="arrow">▸</span> Илья Раевский - сольный концерт <span class="cnt">× 5</span></td>
         <td class="nowrap mono">все open</td>
         <td class="mono nowrap">20933</td>
         <td class="mono nowrap">69846610</td>
@@ -44086,69 +44084,6 @@
         <td class="mono nowrap">10414</td>
         <td class="mono nowrap">77379563</td>
         <td class="mono nowrap"><a href="https://iframeab-pre8692.intickets.ru/seance/77379565" target="_blank" rel="noopener noreferrer">77379565</a></td>
-      </tr>
-<tr class="" data-search="«в единстве народа - сила россии»  77379544 77024016 12368">
-        <td class="nowrap">27-10-2026 18:44:07</td>
-        <td class="nowrap">02-11-2026 11:00</td>
-        <td>«В единстве народа - сила России»</td>
-        <td class="nowrap mono">open</td>
-        <td class="mono nowrap">12368</td>
-        <td class="mono nowrap">77024016</td>
-        <td class="mono nowrap"><a href="https://iframeab-pre8692.intickets.ru/seance/77379544" target="_blank" rel="noopener noreferrer">77379544</a></td>
-      </tr>
-<tr class="" data-search="балет-сказка &quot;щелкунчик&quot;  77379542 77379499 10414">
-        <td class="nowrap">27-10-2026 18:44:07</td>
-        <td class="nowrap">17-12-2026 19:00</td>
-        <td>Балет-сказка &quot;ЩЕЛКУНЧИК&quot;</td>
-        <td class="nowrap mono">open</td>
-        <td class="mono nowrap">10414</td>
-        <td class="mono nowrap">77379499</td>
-        <td class="mono nowrap"><a href="https://iframeab-pre8692.intickets.ru/seance/77379542" target="_blank" rel="noopener noreferrer">77379542</a></td>
-      </tr>
-<tr class="" data-search="тайное укрытие: украшения с котёнком из полимерной глины  77379500 77379492 4061">
-        <td class="nowrap">27-10-2026 18:43:59</td>
-        <td class="nowrap">31-10-2026 16:00</td>
-        <td>Тайное укрытие: украшения с котёнком из полимерной глины</td>
-        <td class="nowrap mono">open</td>
-        <td class="mono nowrap">4061</td>
-        <td class="mono nowrap">77379492</td>
-        <td class="mono nowrap"><a href="https://iframeab-pre8692.intickets.ru/seance/77379500" target="_blank" rel="noopener noreferrer">77379500</a></td>
-      </tr>
-<tr class="" data-search="концерт &quot;валерий семин&quot; в г.пермь 19.03.2027г. &quot;гдк им а.г. солдатова&quot; 19:00  77379497 77379496 7699">
-        <td class="nowrap">27-10-2026 18:43:59</td>
-        <td class="nowrap">19-03-2027 19:00</td>
-        <td>Концерт &quot;Валерий Семин&quot; в г.Пермь 19.03.2027г. &quot;ГДК им А.Г. Солдатова&quot; 19:00</td>
-        <td class="nowrap mono">open</td>
-        <td class="mono nowrap">7699</td>
-        <td class="mono nowrap">77379496</td>
-        <td class="mono nowrap"><a href="https://iframeab-pre8692.intickets.ru/seance/77379497" target="_blank" rel="noopener noreferrer">77379497</a></td>
-      </tr>
-<tr class="" data-search="марина девятова(г.россошь)  77379494 77379491 9199">
-        <td class="nowrap">27-10-2026 18:43:56</td>
-        <td class="nowrap">09-01-2027 18:00</td>
-        <td>Марина Девятова(г.Россошь)</td>
-        <td class="nowrap mono">open</td>
-        <td class="mono nowrap">9199</td>
-        <td class="mono nowrap">77379491</td>
-        <td class="mono nowrap"><a href="https://iframeab-pre8692.intickets.ru/seance/77379494" target="_blank" rel="noopener noreferrer">77379494</a></td>
-      </tr>
-<tr class="" data-search="ты хороший- я плохая (воронеж)  77379489 77379476 11055">
-        <td class="nowrap">27-10-2026 18:43:56</td>
-        <td class="nowrap">29-12-2026 19:00</td>
-        <td>Ты хороший- Я плохая (Воронеж)</td>
-        <td class="nowrap mono">open</td>
-        <td class="mono nowrap">11055</td>
-        <td class="mono nowrap">77379476</td>
-        <td class="mono nowrap"><a href="https://iframeab-pre8692.intickets.ru/seance/77379489" target="_blank" rel="noopener noreferrer">77379489</a></td>
-      </tr>
-<tr class="" data-search="марина девятова(п чернянка)  77379293 77379292 9199">
-        <td class="nowrap">27-10-2026 18:43:15</td>
-        <td class="nowrap">07-01-2027 18:00</td>
-        <td>Марина Девятова(п Чернянка)</td>
-        <td class="nowrap mono">open</td>
-        <td class="mono nowrap">9199</td>
-        <td class="mono nowrap">77379292</td>
-        <td class="mono nowrap"><a href="https://iframeab-pre8692.intickets.ru/seance/77379293" target="_blank" rel="noopener noreferrer">77379293</a></td>
       </tr>
 <tr class="tracked" data-search="вечеринка comedy club ооо «асп» — импровизаторы. санкт-петербург 77222650 69110937 6923">
         <td class="nowrap">22-10-2026 17:00:25</td>
